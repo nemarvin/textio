@@ -685,7 +685,7 @@ An immense crowd surrounded the meeting place of the [Colonial] Assembly when th
 
 <figure>
     <iframe src="https://embed.stanford.edu/iframe?url=https://purl.stanford.edu/xh656wd7606" title="Image viewer" width="800" height="600" allowfullscreen frameborder="0"></iframe>
-    <figcaption>Baco and Burnel would have worn the official costume of the Directory’s colonial agents. Engraving by Philippe Joseph Maillart, Brussels, 1796-1799. Images of the French Revolution, Stanford University.</figcaption>
+    <figcaption>Baco and Burnel would have been quite conspicuous on the streets of Port Louis, wearing the official costume of the Directory’s colonial agents. Engraving by Philippe Joseph Maillart, Brussels, 1796-1799. Images of the French Revolution, Stanford University.</figcaption>
 </figure>
 
 
