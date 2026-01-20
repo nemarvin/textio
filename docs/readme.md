@@ -618,11 +618,18 @@ By the Colonial Assembly
 Signed, Ozoux, Lefébure Marcy, secretaries
 
 
-  <iframe src="https://storymaps.arcgis.com/stories/b1bc426d32c14319a6bd5242c898ed12#ref-n-LUSPsK" width="100%" height="600" frameborder="0" allowfullscreen></iframe>
-  <figcaption>Map of the Main Sites of the Visit of Civil Commissioners Baco and Burnel and the Proslavery Riot, Port-Louis, Mauritius, 1796</figcaption>
-</figure>
-</figcaption>
-</figure>
+<iframe 
+  src="https://storymaps.arcgis.com/stories/b1bc426d32c14319a6bd5242c898ed12"
+  width="100%"
+  height="600"
+  frameborder="0"
+  allowfullscreen>
+</iframe>
+
+<p><em>
+Map of the Main Sites of the Visit of Civil Commissioners Baco and Burnel and the Proslavery Riot, Port-Louis, Mauritius (1796)
+</em></p>
+
 
 
 ### **A Mauritian Colonist’s Perspective: Frédéric Descroizilles, 1796 & 1802**[^66] 
