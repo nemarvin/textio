@@ -53,10 +53,10 @@ Eyewitnesses to these events left behind traces in the archives—traces we can 
 In presenting a diverse range of voices from the French Indian Ocean world, this reader aims to broaden our perspective on the Age of Revolutions and its consequences, and complicate conventional narratives of the period. Culled from a global array of archives, this anthology features firsthand accounts by free men of color on the politics of equality, revelations from planter elites and their allies (including American merchants) as they plotted to uphold slavery at any cost, and eyewitness reports of an insurrection against government officials tasked with implementing imperial laws against slavery. This primary source collection is the first to curate documents from France’s Indian Ocean colonies and present them in translation for English-speaking readers.
 
 
-![Map of French territories in the Indian Ocean, c. 1789](Images/map-french-indian-ocean-1789.png)
-
-
-*Map of French territories in the Indian Ocean, c. 1789*
+<figure>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/c/ce/French_Empire_17th_century-20th_century.png" alt="Map depicting territories occupied by France from the 17th to 20th centuries, created by Kayac1971 (2012), Wikimedia Commons.">
+    <figcaption>Map depicting territories occupied by France from the 17th to 20th centuries. Wikimedia Commons.</figcaption>
+</figure>
 
 <a id="background-france-and-the-indian-ocean"></a>
 ## Background: France and the Indian Ocean
@@ -84,9 +84,10 @@ Indeed, as in the Atlantic world, European slave trading was a significant enter
 The Mascarene archipelago was the epicenter of French settler colonization and plantation slavery in the Indian Ocean. Officially, by the late 1780s, Bourbon Island and Isle de France (along with that colony’s dependency, the Seychelles), were home to a free population of more than 16,000, over 12,000 of whom enjoyed “white” status, and 75,899 slaves. That number was likely higher, however (120,000 according to some estimates), as slaveholders underreported their dependents on censuses in order to avoid paying full taxes. At the twilight of the Old Regime, the Mascarenes and their dependencies (the Seychelles and other islands) thus housed 12% of the total population of France’s slaveholding empire—a proportion that rose to one-third in the wake of Haitian Independence. Isle de France (Mauritius) became part of the British Empire in 1810, but Réunion Island ultimately remained under French control and has been the most populous of France’s so-called *vieilles colonies* (vestiges of its pre-Revolution colonial empire) almost continuously from the 1850s to the present.[^4]
 
 
-![Map of French shipping routes in the Indian Ocean, drawn by Mahé de la Bourdonnais](Images/la-bourdonnais-handkerchief-map.jpg)
-
- <em>This map of the main French shipping routes in the Indian Ocean was drawn from memory by Mahé de la Bourdonnais (c. 1750) while imprisoned in the notorious Bastille fortress in Paris. It was produced on a handkerchief, with soot and coffee grounds. Bertrand-François Mahé de La Bourdonnais (1699-1753) was a naval officer engaged in the service of the French East India Company. He served as governor-general of the Mascarenes on behalf of the Company and became famous for modernizing and improving the islands’ commercial and agricultural infrastructure. During the War of Austrian Succession between France and Britain, he took the British Indian enclave of Madras, but refused to destroy the city, provoking the ire of his superiors. He was eventually imprisoned for “siding” (</em>entente<em>) with the enemy. Image Source: Bibliothèque Nationale de France.</em>
+<figure>
+    <img src="https://cdn.essentiels.bnf.fr/media/images/cache/cache/rc/hyMdMMKw/uploads/media/image/20201205003256000000_por_283.jpg" alt="Map of the main French shipping routes in the Indian Ocean, drawn from memory by Mahé de la Bourdonnais (c. 1750) while imprisoned in the Bastille.">
+    <figcaption>Map of French shipping routes in the Indian Ocean, drawn from memory by Mahé de la Bourdonnais while imprisoned in the Bastille (c. 1750). Made with soot and coffee grounds on a handkerchief. Image Source: Bibliothèque nationale de France.</figcaption>
+</figure>entente<em>) with the enemy. Image Source: Bibliothèque Nationale de France.</em>
 
 Located at the nexus of both the Atlantic and Indian-Ocean spheres of France’s empire, the societies of Bourbon Island and Isle de France shared many of the defining characteristics of Saint-Domingue (colonial Haiti), Martinique, or even Louisiana (technically under Spanish rule since 1763). For example, the Indian Ocean colonies, like their counterparts in the greater Caribbean, featured majority-slave populations and an elite of free persons divided nominally into white and nonwhite categories. As in the Antilles, these islands’ populations were officially divided into three categories: white, black (i.e. enslaved) and *libres* (free nonwhites). But such labels can be deceptive. Race generally followed different logics in the Indian Ocean than in the Atlantic world. Generally, these categories masked a much greater ethnic diversity than an “Atlantic” reading of terms would suggest. For example, many South Asians were included within the category “black,” which functioned as a synonym to “slave,” and a large portion of those understood to be “white” had non-European ancestry and might be considered to be “of color” in other areas of France’s empire (more on that below).
 
@@ -101,12 +102,6 @@ In the Mascarenes, reaction to the abolition decree of 1794 was swift. Both isla
 After lengthy debate, the executive branch of the French Directory government (the Council of Five Hundred), did eventually send an expedition to apply the abolition of slavery in the Mascarenes. The law it passed on 24-25 January 1796 empowered two agents, appointed for a term of two years and given wide powers, to implement the Constitution of Year III (which upheld abolition) in the Mascarenes. Commissioners Baco and Burnel would be supported by a squadron carrying 700 soldiers and 1,000 sailors under the command of Rear Admiral Sercey who had personally overseen the evacuation of thousands of refugees from Saint-Domingue during the sack of Cap Français in 1793.
 
 However, within days of the commissioners’ arrival in the Mascarenes’ administrative capital, Port-Louis, a riot broke out that culminated in the ouster of the commissioners from the island. Members of the Colonial Assembly of Isle de France bought time with sham negotiations while secretly calling in men from outlying plantations. The troops were ordered locked in their barracks while a crowd stormed the Governor’s mansion and dragged the startled Baco and Burnel out of their beds, through the city streets, and onto a ship bound for the Philippines. A sympathetic witness recalled the events thus: “Everyone became firmly and courageously resolved to die, arms in hand, to ward off the peril [they faced] rather than expose themselves to the same torments as the victims of Saint-Domingue.”[^8] It would later emerge that their commanders (including Sercey) had been complicit with the Colonial Assembly in encouraging the rioters.[^9] Réunionnais historian Claude Wanquet makes the provocative but compelling argument that anxieties over inadvertently effecting a repeat of the events of Cap François in 1793 may have even prevented Baco and Burnel from acting more forcefully against the conspiracy.[^10] Their own report suggests wariness (perhaps shared by members of the Directory as well) over pushing the issue of abolition too forcefully: “[Your commissioners] had before their eyes the lessons [of the recent past] to guide them. The ruins of Saint-Domingue…made it imperative to exercise moderation.”[^11] So pervasive was the specter of Saint-Domingue in all parties’ political rhetoric during the Revolutionary era and beyond, that Wanquet coined a term, “the Dominguan Syndrome,” to explain its dominance.[^12]
-
-
-![Author’s map of ship arrivals in Port-Louis, 1790–1802](Images/port-louis-shipping-1790-1802.png)
-
-*Author’s Map: Volume and Provenance of Ships Arriving in Port-Louis, 1790-1802. Not included: Vessels from other Mauritian ports or Réunion.*
-
 In France, reactions to Mascarene leaders’ overt defiance of metropolitan authority were mixed. Some pro-slavery figures, while bemoaning the “loss” of Saint-Domingue, would later credit the sound “policing measures” of the Mascarene Islands’ leaders for “saving” the Indian Ocean colonies for France.[^13] A March 1802 proclamation to the colonists of Mauritius and Réunion, sent by Napoleon’s minister for the colonies, announced the maintenance of slavery on the islands and praised the “genius” of their leaders for not enforcing French laws abolishing slavery.[^14]
 
 Apologists of the colonies’ leadership pointed to the islands’ relative stability and increasing economic importance (see map, below). For a time, it seemed that the Mascarenes’ trade connections with the outside world (especially with U.S. merchants) would continue to expand; since 1787, French policy had become increasingly favorable to free enterprise in the region. However, the British Navy’s capture of the Mascarenes during the Napoleonic Wars all but ended France’s burgeoning commercial role in the Indian Ocean world and paved the way for Great Britain to become the dominant European power “east of the Cape of Good Hope.” Réunion was returned to France in 1814, but Mauritius would remain a British colony until its independence in 1968.
@@ -115,10 +110,10 @@ Apologists of the colonies’ leadership pointed to the islands’ relative stab
 ## Slavery and Ethnicity in the French Indian Ocean World 
 
 
-![Warehouses of the French East India Company at Pondicherry](Images/pondicherry-company-warehouses.jpg)
-
-
-*“Les magasins de la Compagnie à Pondichéry [The warehouses of the East India Company, Pondicherry], 18th c. Image Source: Musée de la Compagnie des Indes, Lorient, France.*
+<figure>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/d/dd/Magasins_de_la_Compagnie_des_Indes_%C3%A0_Pondich%C3%A9ry.jpg" alt="Les magasins de la Compagnie à Pondichéry [The warehouses of the East India Company, Pondicherry], 18th c. Image Source: Musée de la Compagnie des Indes, Lorient, France.">
+    <figcaption>Warehouses of the East India Company, Pondicherry, 18th century. Musée de la Compagnie des Indes, Lorient, France.</figcaption>
+</figure>
 
 *Although scholarship on European slave trading has privileged its Atlantic over its Indian Ocean theater, between 1600 and 1860, European slave ships transported half a million captives from the Indian Ocean into the Atlantic and another half-million to points within the Indian Ocean itself. France’s Indian Ocean commerce in particular was fully entangled with its Atlantic slave trade. Textiles from South Asia and cowries from the Maldives, deposited by French ships at the port of Lorient were exchanged for slaves in Africa's Atlantic ports. Moreover, as much as one-fifth of all French slaving operations occurred within the Indian Ocean itself, largely to satisfy the expanding demand for labor in the Mascarenes. Some of the first slaves sent to the French Indian Ocean islands (the Mascarenes) were South Asian in origin, and throughout most of the eighteenth and early nineteenth centuries, Indians represented some 10% of the enslaved populations of the islands. Many were domestic servants, and most were women or children. Often, they had been kidnapped or sold into debt peonage by destitute family members, especially during the frequent famines that struck the countryside around France’s* comptoirs (*coastal trading posts) in India. Chief among these was Pondicherry, in the Tamil-speaking southeastern coastal region of India. Access to the enclave had been granted to France by a vassal of the Mughal Empire in 1670 and by the eighteenth century had become a booming textiles manufacturing center, where, by 1740, up to 120,000 Tamil artisans labored for the French, weaving and dying valuable cloth for resale back in Europe, throughout the Indian Ocean world, and along the coasts of Africa, where it was purchased by local elites. Pondichéry and the other* comptoirs *remained part of France until 1962, when they were officially absorbed by India as the state of Puducherry.*[^15]
 
@@ -216,23 +211,21 @@ Pondicherry, March 16, 1793. Signed, the Governor of Pondicherry. P. Chermont.
 *Madagascar looms large in the history of French imperialism in the Indian Ocean. Three-and-a-half centuries before Queen Ranavalona III’s forces were defeated by the French in 1895, ushering in a new era of direct colonial control, King Louis XIV’s minister, Colbert, had envisioned a permanent French enclave on the island to serve as a port-of-call along the perilous trade route between Europe and Asia. French officials, priests, and settlers (most indentured servants) were dispatched from France beginning in the 1640s, but the colony they built at Fort-Dauphin, on the island’s southeast coast, proved short-lived. Chronic food shortages and rising tensions with local leaders, called* Rohandrian, *led to the massacre of a large portion of the French colonists and the collapse of the settlement entirely in 1674. During the thirty-year interim, government agents and Catholic missionaries sought to glean information from locals in order to facilitate trade with locals and evangelization. One of these officials, Etienne de Flacourt, published a detailed account of the people, flaura, and fauna of the “Big Island” in the mid-seventeenth century, hoping his book would drum up royal support and popular interest in Madagascar back in France. While his efforts yielded limited success in his lifetime, Flacourt’s writings are still studied today for what they reveal about the cultures of southeastern Madagascar in the seventeenth century. The following legend was relayed to Flacourt by a member of the local* Rohandrian *elite, which claimed caste superiority over others in the region, based in part on their putative origins. The story was likely adapted from chronicles passed down by those of their ancestors who hailed from “Islamicized” regions of Java and Sumatra (in today’s Indonesia) and began arriving on the east coast of Madagascar by the 12th century.*[^21]
 
 God, having created Adam from the earth, sent him into a sleep during which he pulled a woman from his brain, from whom are descended the *Rohandrian*; another woman from his neck, from whom are descended the *Anancandrian*; another from the left shoulder, from whom came the *Ondzatsi*; another from the right side, whence are descended the Great *Voadziri,* who are black; another from the thigh, from whom came the *Ontsoa*; and another from the sole of the foot, from whom come the slaves. [^22]
-
-
-![Etching from Etienne de Flacourt’s Histoire de Madagascar](Images/flacourt-madagascar-etching.jpg)
-
-*Etching from Etienne de Flacourt’s* Histoire de Madagascar *(1661). bearing the inscriptions “Rohandria or Chief & his wife both white” (left) and “Lohavohits or Village Master and his wife both* Negres” *(right). According to historian Claude Allibert, the copperplate etchings featured in the book may have been based on drawings Flacourt made himself while in Madagascar.*[^23]
-
 <em>For the French, tales like these helped crystallize the idea that local Antanosy society was divided into two distinct caste systems, the first, superior, called “</em>Fotsy<em>” (the chromatic term for white) and a second, inferior, called “</em>Mainty<em>” (black). These divisions were much more complicated than the French understood them to be; nevertheless, they reproduced this white/black binary in their writings about Madagascar. Elements of the social structure of Madagascar may even have been carried eastward to the Mascarene Islands, which were settled in part by individuals from the Fort-Dauphin colony in the seventeenth century.</em>
 
 
-![Sketch of the Borobudur ship bas-relief sculpture](Images/borobudur-ship.png)
-
-
-*Sketch of the “Borobudur ship” bas-relief sculpture, Java, Indonesia, depicting the kinds of wooden outrigger sailing ships that likely carried early migrants from Southeast Asia to Madagascar. Source: Haddon, A.C. (1920). The Outriggers of Indonesian Canoes. Image Source: Royal Anthropological Institute of Great Britain and Ireland, London.*
+![“Borobudur ship” bas-relief sculpture, Java, Indonesia, depicting the kinds of wooden outrigger sailing ships that likely carried early migrants from Southeast Asia to Madagascar. Source: Haddon, A.C. (1920). The Outriggers of Indonesian Canoes. Image Source: Royal Anthropological Institute of Great Britain and Ireland, London.](https://upload.wikimedia.org/wikipedia/commons/3/30/Borobudur_ship.JPG)
 
 *Missionary sources, too, reveal that French colonists grouped the people they met in the Anosy region broadly as “whites” and “blacks,” not merely because of their own perception of differences in skin color, but because that was how the racial system of the region was explained to them. In a 1650 report to the superior of his Paris-based congregation, one missionary shared a revealing conversation between the priests and one of the local* ombiasy, *itinerant holy men who acted as both healers and diviners:*
 
 The most learned of the *ombiasy* of this country, fifty years old, was here with the others. We asked him by interpreter how he served God. He told us that *Ramofamade*, that is to say Muhammad, was their prophet, and Moses ours; that we did well to follow the law of Moses and they, that of Muhammad. He told us the story of our first father Adam, much as it is in Genesis, except for one impertinent circumstance, namely that there was a river of milk, another of honey, a third of wine, and that the subject that angered God was the stench produced after Adam and Eve had purged their stomachs in the garden (*avaient purgé leur ventre*). He said moreover that among the children of Adam, some were white and great lords, from whom the French and the Whites of this country are descended, the others blacks, and slaves, from whom the *Nègres*[^24] drew their origin. We told him about Jesus Christ, the Incarnate Son of God. He replied that their books made mention of a prophet named *Raïssa*, who had come to Earth directly from God, without being born among men, and that he was greater than Muhammad, who succeeded him. Having told him that it was Our Lord Jesus Christ, Son of God, whom we worship, he replied that God had no son and that he was only one, that as for the rest, they hoped, like us, to go to heaven by keeping their rituals.[^25]
+
+<figure>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/8/8c/Isle_de_Madagascar%2C_autrement_dicte_isle_St_Laurens%2C_par_le_Sr_de_Flacourt%2C_1656._A_pr%C3%A9sent_nomm%C3%A9e_isle_Dauphine_-_btv1b550002299.jpg" alt="Illustration from Etienne de Flacourt’s Histoire de Madagascar (1656), republished in 1666.">
+    <figcaption>Plate from a 1666 edition of Etienne de Flacourt’s Histoire de Madagascar. Captions label figures with specific ethnic markers and the terms “black” and “white.” Wikimedia Commons.</figcaption>
+</figure>
+
+>*Etienne de Flacourt’s popular book*, Histoire de Madagascar, *published in 1656, upon returning from his tenure as governor of the French post on that island, disseminated Europeans' understanding of southeastern Malagasy society as broadly divided between “white” and “black” populations. Detailed engravings feature married couples from the two populations: “Rohandria or Madagascar chiefs, who are white” and “Lohavohits or Village Master who are black and have frizzy hair.” According to historian Claude Allibert, it is plausible that the copperplate etchings featured in the book were based on drawings Flacourt made himself in Madagascar.*[^23]
 
 <a id="observations-of-a-french-missionary-on-the-population-of-bourbon-island"></a>
 ### Observations of a French Missionary on the Population of Bourbon Island[^26] 
@@ -267,7 +260,7 @@ I am, with Respect, Monseigneur, your most humble and very obedient servant
 Entrecasteaux
 
 
-![Author’s map of the ancestry of adults registered as white on Bourbon](Images/bourbon-white-ancestry-map.png)
+![This map depicts the birthplaces (with modern country borders shown) of the grandparents of adults registered as white on the 1711 census. 72% of Creole (island-born) whites had at least one non-European grandparent (South Asian or Malagasy).](Images/map_1.png)
 
 
 *Author’s Map. Cossigny’s estimate that as many as three-quarters of Bourbon Island’s approximately 8,000 whites had non-European ancestors was not an exaggeration. It was an open secret in the Mascarenes that most white creole families from Bourbon could trace their lineage back to a foremother who had migrated from Madagascar or India shortly after the island first began to be settled in the seventeenth century. This map depicts the birthplaces (with modern country borders shown) of the grandparents of adults registered as white on the 1711 census. 72% of Creole (island-born) whites had at least one non-European grandparent (South Asian or Malagasy). (Sources: “Recensement de 1711,” Archives Nationales d'Outre-Mer, FM DPPC G1/477; Ricquebourg, Lucien Jacques Camille.* Dictionnaire généalogique des familles de l’île Bourbon (La Réunion) 1665-1810. *3 vols. Mayenne: Imprimerie de la Manutention, 1983.*
@@ -276,9 +269,10 @@ Entrecasteaux
 <a id="the-french-revolution-and-the-politics-of-race"></a>
 ## The French Revolution and the Politics of Race
 
-*Portrait of Henri Paulin Panon-Desbassayns. 18th century. Musée historique de Villèle. Image Source: Wikimedia Commons.*
-
-![Portrait of Henri Paulin Panon-Desbassayns](Images/panon-desbassayns-portrait.jpg)
+<figure>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Henri_Paulin_Panon-Desbassayns.jpg" alt="Portrait of Henri Paulin Panon-Desbassayns. 18th century. Musée historique de Villèle. Image Source: Wikimedia Commons.">
+    <figcaption>Portrait of Henri Paulin Panon-Desbassayns. 18th century. Musée historique de Villèle. Image Source: Wikimedia Commons.</figcaption>
+</figure>
 
 
 <a id="diary-of-a-bourbon-island-planter-in-france-1780s-and-90s"></a>
@@ -404,10 +398,10 @@ Article 5. The colonial assembly did not think it necessary to allow the free or
 
 *Engraving: “The Three Brothers Monneron, députés to the National Assembly.” From left to right: Charles-Claude-Ange, 1735-1799, representing the sénéchaussée of Annonay, in southeastern France; Jean Louis, 1742-1805, representing the East Indies; Pierre-Antoine, 1747-1801, representing the colony of Isle de France (Mauritius). Published in Paris by Dejabin between 1789 and 1791. Image Source: Notice bibliographique de la Bnf.*
 
-![Engraving of the three Monneron brothers](Images/monneron-brothers.png)
-
-
-*Pierre Antoine Monneron (1747-1801) was a French merchant, financier, and politician, and a member of a well-connected merchant family. He was born in France but represented his adopted home of Isle de France, which he represented at the Estates-General and then in the National Assembly at Paris. The island of Mauritius, today an independent island nation in the Indian Ocean, was then a French colony known as Isle de France (the Island of France). Although, like in Saint-Domingue, white colonists in Isle de France owned slaves, most were generally more supportive of the Revolution than other colonial white populations. They nominated Pierre Antoine Monneron, a member of the abolitionist society, Amis des Noirs (Friends of the Blacks), to represent their slaveholding colony. His experience in the Portuguese colony of Goa, in India, where he was naturalized as a Portuguese subject in 1779, may have contributed to his openness toward assimilating freeborn non-Europeans as full citizens. In the 1760s, the Portuguese state had decreed all Catholic freepeople of whatever race living in its territories in Asia to be full subjects of the Portuguese Crown, equal to white Portuguese subjects. Monneron’s speech helped persuade a majority of members of the National Assembly to vote in favor of granting rights to freeborn people of color two days later, on 15 May 1791. Not everyone in France’s Indian Ocean colonies shared his view. While the 1791 and 1792 laws in favor of “free people of color” were immediately acknowledged and registered on Isle de France, neighboring Bourbon Island, which had a very different racial system, hesitated for many months before enforcing them.*
+<figure>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Les_fr%C3%A8res_Monneron.jpg/1007px-Les_fr%C3%A8res_Monneron.jpg" alt="Engraving of the Three Brothers Monneron, députés to the National Assembly. From left to right: Charles-Claude-Ange, Jean Louis, and Pierre-Antoine. Published in Paris between 1789 and 1791.">
+    <figcaption>Engraving of the Three Brothers Monneron, députés to the National Assembly. Published in Paris between 1789 and 1791. Image Source: Bibliothèque nationale de France (BnF).</figcaption>
+</figure>
 
 Mr. MONNERON: Article One of the drafted law of the committee decrees, as a constitutional article, that the legislature can make no law for the colonies on the status of persons unless upon the specific and formal request of the colonial assemblies. I would adopt this article if it were not so vaguely worded.
 
@@ -632,7 +626,7 @@ Citoyens Directeurs, just crimes shed light on the plans of the Colonists. All h
 <iframe src="https://arcg.is/bnHC80" width="100%" height="600" frameborder="0" allowfullscreen></iframe>
 </div>
 
-*Interactive map: Volume of U.S. Ships Calling at Port-Louis by Place of Origin, 1786–1810 (UA Little Rock GIS Lab). Data source: Auguste Toussaint, *Early American Trade with Mauritius* (Port Louis: Esclapon, 1954).*  
+*Interactive map: Volume of U.S. Ships Calling at Port-Louis by Place of Origin, 1786–1810 (UA Little Rock GIS Lab). Data source: Auguste Toussaint,* Early American Trade with Mauritius *(Port Louis: Esclapon, 1954).*  
 [Open the interactive map](https://arcg.is/bnHC80)
 
 On the 6th of Messidor, Year 4 [24th June 1796],
@@ -648,7 +642,7 @@ The Americans, who find anything concerning the French nation [of interest], adm
 The peaceful planter cultivates his fields while the thunder roars in vain above their heads and the waves break at their feet. It is equally gratifying for us to give you this just praise knowing that, among you, the hand of compassionate gentleness is lightening the burdens of servitude.
 
 
-![Detail from the St. Denis shipping register, June 1806](Images/st-denis-shipping-register-1806.png)
+![Detail from “Etat des Batimens entrés dans la dite Rade [St Denis] 1 to 30 June 1806, ANOM C3-25, item 111, showing American involvement in trade between Madagascar and the Mascarenes, including in enslaved captives.](Images/7P3_Image_8.png)
 
 *Detail from “Etat des Batimens entrés dans la dite Rade [St Denis] 1 to 30 June 1806, ANOM C3-25, item 111, showing American involvement in trade between Madagascar and the Mascarenes, including in enslaved captives.*
 
@@ -657,13 +651,6 @@ The peaceful planter cultivates his fields while the thunder roars in vain above
 ### The Colonial Assembly of Réunion Island to Paris, 1797[^63]
 
 *The Decree of 4 February 1794 had simultaneously emancipated and enfranchised all slaves in the French empire, but the mechanism of its application and enforcement were unclear. The text of the law included only that: “The National Convention declares that slavery of* nègres *is abolished in all the colonies; consequently, it decrees that all men living in the colonies, without distinction of color, are French citizens, and enjoy all the rights guaranteed by the constitution.” This was followed by a request for the Committee of Public Safety to report on measures to be taken to facilitate the execution of the decree.*[^64] *Members of the Colonial Assembly of Réunion knew that Baco and Burnel had arrived with plans to abolish slavery (and rumor had it that a second mission was planned for Réunion–which may have spurred their declaration). Their own representatives in Paris had sent a tailor-made proposal for the Mascarenes. The proposal, dated 31 August 1795, of deputies Besnard (representing Réunion) and Serrel and Gouly (representing Isle de France), was similar to the regime of “free labor” instituted by Toussaint Louverture and others on Saint-Domingue; it would have converted the former plantation economy into a factory economy, incorporating mandatory work, surveillance tactics, and the use of prison labor for the formerly enslaved (furthermore, they made no mention of banning use of the whip). The one alternative for freedpersons would be to “return to their country” or aid in the colonization of Madagascar on behalf of the French empire as a new labor force. Summarily rejecting this proposal, members of the Colonial Assembly of Réunion dispatched this melodramatic appeal to their representatives in the national legislature.*
-
-
-![First page of a Réunion Colonial Assembly report, 1798](Images/reunion-colonial-assembly-report.png)
-
-
-*Author’s photograph from the Archives départementales de La Réunion. First page of “Rapport sur les Colonies en général, et particulièrement sur celle de la Réunion, fait à l’Assemblée Coloniale de cette Isle, dans sa séance du 22 Brumaire, an 7me par sa commission, composée des citoyens Delestrac, Rougemont et Ozoux, ce dernier rapporteur [12 November 1798],” in ADR, L311 (print version).*
-
 *The anxiety produced among the white elite by the arrival of Baco and Burnel not only galvanized support for slavery on Réunion , but for white minority rule as well. By 1798, Réunion’s Colonial Assembly released a report it had commissioned from several of its longest-serving members that seemed to reflect mounting intolerance for the liberal racial legislation of the Revolution. Although printed on the colony’s new press, it may have been intended for internal circulation within the island only. The Colonial Assembly unanimously endorsed the findings of the Report and ordered 400 copies printed and distributed throughout the colony. Among other conclusions, its authors drew on an exhaustive review of confiscated newsprint and private letters to conclude that abolition itself had caused the rebellions and civil wars in the Caribbean and that, therefore, Réunion’s leaders must renew their dedication to preventing it from being implemented locally. Like most propaganda from the Mascarenes, the Report did not explicitly recommend reversing legalized racial equality for free persons. It seems that it did, however, make an appeal to white unity. Everywhere but in the Mascarenes, the Report argued, the French colonial world had seen its “whites humiliated, persecuted, destroyed”—especially in Saint-Domingue, Guadeloupe, and French Guiana. If Réunion’s servile population was freed and enfranchised, the resultant numerical superiority of nonwhite voters would tip the scales of political power away from whites. Réunion would become, like Saint-Domingue, the “patrimony of blacks,” and freedmen would monopolize local politics. Former slaves “would naturally vote for men of their colors[.] Soon all authority would be in their hands, and do we really think that no Toussaint Louverture, Rigaud, or J[ean] Francois can exist here among them?” Having spent several pages contending that all the three Saint-Domingue revolutionaries were despots intent on humiliating and annihilating white colonists, evoking their names in the context of Réunion was a clear fear-mongering tactic. Indeed, the Report seemed to exploit the sensitivities of the island’s poor white population: poverty, it claimed, had deepened on Réunion as a consequence of the metropole’s “proscription of color [distinctions].”*[^65]
 
 Citizens and Friends,
@@ -725,7 +712,7 @@ What, instead, were the reckless innovators preparing? The terrible lesson of th
 *In the winter of 1902-3, a librarian at the Boston Athenaeum was investigating a leak in the attic when he discovered a long-lost manuscript. It was a memoir, written by François Le Forestier (1749-1819). Born in France, he had traveled to Isle de France (Mauritius) in 1780, where he served as a barrister and then as a notary. He was elected a “substitute deputy” for his parish during the era he referred to as “that cursed Revolution” and in 1803, he became a tax collector under the military governorship Napoleon imposed on the colonies. Accused of mismanaging funds (he was discovered to owe 109,435 francs!). Le Forestier fled to New England where he presented himself as a French tutor. Like many on Isle de France, Le Forestier had strong ties to the region: he had sent one of his sons to school at Phillips Andover Academy, in Massachusetts, in 1797, and a Salem merchant weathered an illness on his sugar plantation during a business trip in the 1780s. From 1808-1812 Le Forestier lived and taught in Massachusetts (including what is today the state of Maine). When Mauritius passed into British hands, Le Forestier thought himself safe from arrest, so in 1812, he returned aboard the* Talbot *out of Salem. During the voyage he wrote an autobiography addressed to “Mademoiselle Cobb,” the fifteen-year-old Mary Cobb of Portland, Maine, one of his favorite pupils. Written in French, it contains an account of his early life in France and his time on Mauritius, as well as his own harrowing escape from the island, in which he was helped by his own slaves and some free black residents. He also describes the events surrounding the arrival and ouster of Baco and Burnel in 1796, presented in this extract. Note that Le Forestier’s suggestion that the majority of the troops who had arrived with the agents were also deported is false: most of them, as well as the naval squadron and its commanders, remained on the island. His account makes it quite clear that, despite their later claims, the ouster of the two French civil commissioners was deliberate and planned and carried out by members of the Colonial Assembly and local troops .The idea that several dozen rioters could have “forced” 1,500 troops to embark suggests some level of complicity on the part of their commanders–and that those involved in the riot may have been far more numerous than this account suggests.*
 
 
-![Page 19 from the journal of François Le Forestier](Images/le-forestier-journal-page-19.png)
+![Page 19 from the Journal of François Le Forestier, describing the coup that expelled Baco and Burnel.](Images/fpu_Image_9.png)
 
 
 *Page 19 from the Journal of François Le Forestier, describing the coup that expelled Baco and Burnel. Author’s photograph.*
@@ -749,10 +736,12 @@ Its members presented their respects to the envoys of the Directory, on the one 
 
 An immense crowd surrounded the meeting place of the [Colonial] Assembly when the generals and commissioners went in. All transpired in the utmost calm, the opinion pages kept mim, no cries came forth from the crowd, which, as if out of curiosity, accompanied the commissioners as they returned to the Government Palace. The troops, under arms for the parade, returned to their barracks. The commission of the Assembly was appointed and went immediately to meet with the two commissioners[.] A signal had been agreed upon beforehand for [the commission], when leaving the Government Palace, to announce whether, as most believed, the mission of the envoys of the Directory was in fact to execute the decree of 16 Pluviose. When a great interest motivates an entire population, when this interest, especially, is that of the preservation of each of its members, it moves as a single man without having previously conferred, and each individual provides, with admirable intelligence and care, for the salvation of all. When the generals, who had brought the troops back to the barracks, returned to Government Square, they found themselves surrounded by an immense crowd, and, half willing, half by force, they accepted [their] offer to go to a café for some refreshments. Shortly afterwards appeared on the balcony of the Government Palace the signal announcing the intention of the commissioners to execute the fatal decree.
 
-![Official costume of a Directory colonial agent](Images/directory-colonial-agent-costume.png)
-
-
 *Baco and Burnel wore the official costume of the Directory’s colonial agents (pictured). “Agent du Directoire exécutif dans les colonies : ce fonctionnaire est nommé par le Directoire, il est chargé de faire exécuter toutes les loix emanées de la Republique, et d'organiser tous les tribunaux et ne doit rendre compt qu'au Directoire exécutif [estampe].” Philippe Joseph Maillart (1764-1856), Brussels, 1796-1799. Image Source: Images of the French Revolution, Stanford University.*
+
+<figure>
+    <iframe src="https://embed.stanford.edu/iframe?url=https://purl.stanford.edu/xh656wd7606" title="Image viewer" width="800" height="600" allowfullscreen frameborder="0"></iframe>
+    <figcaption>Baco and Burnel would have been quite conspicuous on the streets of Port Louis, wearing the official costume of the Directory’s colonial agents. Engraving by Philippe Joseph Maillart, Brussels, 1796-1799. Images of the French Revolution, Stanford University.</figcaption>
+</figure>
 
 [View the original engraving in Stanford University’s collection](https://purl.stanford.edu/xh656wd7606)
 
@@ -834,16 +823,15 @@ Reunion Island’s [agricultural] products will continue to be an important obje
 We could not do better than to leave things in this state.
 
 
-![Napoleon dictates to Count Las Cases on Saint Helena](Images/napoleon-las-cases.jpg)
-
-
-*Napoleon dictates to Count Las Cases the account of his campaigns. “Napoleon at St Helena,” c. 1855-’56, by Hippolyte Paul Delaroche (1797-1856). Oil on canvas. Image: Royal Collection Trust.*
-
-
 <a id="napoleon-interviewed-in-exile-on-st-helena-ca-1816"></a>
 ### Napoleon Interviewed in Exile on St. Helena, ca. 1816[^75]
 
 *The* Memorial of Saint Helena *(in French,* Le Mémorial de Sainte-Hélène), *was written by French count Emmanuel-Auguste-Dieudonné Las Cases. It was based on interviews with Napoleon Bonaparte, conducted during his exile on the British island of Saint Helena, in the South Atlantic along a trade route to the Indian Ocean. Napoleon had been forcibly imprisoned there after his final defeat by British and Coalition forces at the Battle of Waterloo (1815). The work was immensely popular when first published—in French and in English. This extract comes from an English translation and includes Napoleon’s reflections on his army’s defeat in Haiti and on the Isle de France.*
+
+<figure>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/5/50/Napoleon_Las_Casas.jpg" alt="Napoleon dictates to Count Las Cases on Saint Helena, c. 1855, by Hippolyte Paul Delaroche.">
+    <figcaption>Napoleon dictates to Count Las Cases. “Napoleon at St Helena,” oil painting, c. 1855, by Hippolyte Paul Delaroche. Royal Collection Trust.</figcaption>
+</figure>
 
 [*From Volume 1*] [*Discussing the* abbé *Gregoire…*] If [Gregoire] be driven from France, he must take refuge in St. Domingo. The friend, the advocate, the eulogist of the negroes will be a god, or a saint, among them. St. Domingo naturally became the next subject of our conversation. I had, in my younger days, seen that colony in its most flourishing state. The Emperor put many questions to me, and made himself acquainted with all the circumstances relating to that remote period. When his enquiries were over, he said, ‘I shall, no doubt, astonish you: but I am convinced, even from your own statements, that the island has not, at this moment, lost a third, certainly not one half of its value, and that, in a short time, it will recover all its former prosperity.’ I should not, in reality, be surprised at it; for all the absurd stories, circulated in Europe respecting France, ought to put us on our guard against those which might be safely told with regard to St. Domingo. The Emperor said that, after the restoration, the French government had sent out emissaries and proposals which were laughed at by the negroes. ‘As to myself,’ he added, ‘on my return from Elba,[^76] I would have settled all differences with them; I would have recognized their independence, contented myself with some factories, like those on the coast of Africa, endeavoured to draw them the to the mother country, and to establish a kind of family intercourse with them, which might, in my opinion, have been easily accomplished.’
 
@@ -882,7 +870,7 @@ I said, ah, people have been talking about giving freedom to the blacks for a lo
 
 *A remarkable illustrated manuscript survives in the Carnegie Library on the island of Mauritius. It was written by a free man of color named Jean-Baptiste Tabardin, who spent much of his youth (like many in his milieu) aboard the privateering vessels that shipped out of Port-Louis (Mauritius) and preyed on British and other enemy vessels. These extracts of Tabardin’s memoir recall his imprisonment aboard a prison hulk in Portsmouth, England, following his capture by the British Navy. Tabardin eventually secured his release from prison by answering a call for recruits: he entered into British naval service as a captain’s butler. In the extract below, he describes a moment in which he hesitated before defecting to the British, concerned that he would be seen as unpatriotic or, worse, as a traitor to the French nation. He recalls a letter transmitted to him by a relative.*
 
-[**p. 116] Second Letter of Stanislas Moutou [Tabardin’s cousin and fellow prisoner-of-war]:**
+[<strong>p. 116] Second Letter of Stanislas Moutou [Tabardin’s cousin and fellow prisoner-of-war]:</strong>
 
 "You say you were surprised by my letter and shocked by my first. You seem to truly love your country (*patrie*) [i.e., France] and wish to suffer for her. I was like you, my dear cousin, but that has passed. Yes, one must love one’s country when one is recognized as her child and as a citizen. But tell me this—since when, in your country, have you been considered a French citizen?
 
@@ -941,13 +929,10 @@ To calm him down, I said: "Listen, comrade, sometimes friends are worth more tha
 Go find me one of those black men from the depths of *Négritie* [a historical region in Eastern Africa] to rule over me; if he is moral, just, and benevolent, I would be honored to obey his laws.
 
 
-![Medal commemorating the British capture of Isle de France, obverse](Images/british-capture-medal-obverse.png)
-
-
-![Medal commemorating the British capture of Isle de France, reverse](Images/british-capture-medal-reverse.png)
-
-
-*Medal Commemorating the British Capture of the Isle de France and Surrounding Islands, Celebrating the Role of Sepoys (Indian Soldiers who Fought for the British), circa 1811. National Maritime Museum, Greenwich, London. Description: A sepoy, standing on the shore, his right arm raised, waving the Union Jack, spearing with his left hand the prostrate scepter of France, (a winged rooster;) a gun (right); a fleet of five vessels in a distant harbor (left). Reverse: Within a narrow wreath of leaves; tied above and below, inscribed in Persian: 'This medal was conferred in commemoration of the bravery and accustomed fidelity exhibited by the Sepoys of the English Company in the capture of the Mauritius Islands in the year of Hegira 1226'. Legend. 'RODRIGUES VI JULY MDCCCIX. BOURBON VIII JULY AND ISLE OF FRANCE III DEC. MDCCCX'. “Struck by the Hon'ble. East India Co. for Indian presentation.” Fitted with a loop and yellow ribbon.*
+<figure>
+    <img src="https://collections.rmg.co.uk/media/566/855/l4294_001.jpg" alt="Medal commemorating the British capture of Isle de France and surrounding islands, highlighting the role of Sepoys, circa 1811. National Maritime Museum, Greenwich, London.">
+    <figcaption>Medal commemorating the British capture of Isle de France and surrounding islands, highlighting the role of Sepoys (Indian soldiers who fought for the British), circa 1811. National Maritime Museum, Greenwich, London.</figcaption>
+</figure>
 
 <a id="autobiographical-letter-lislet-geoffroy"></a>
 ### Autobiographical Letter, Lislet-Geoffroy
@@ -955,20 +940,20 @@ Go find me one of those black men from the depths of *Négritie* [a historical r
 *Jean-Baptiste Lislet Geoffroy (also known as Geoffroy L'islet, 1755-1836) was an engineer, cartographer, and corresponding member of the prestigious Paris Academy of Sciences. He was born on Bourbon Island (Réunion) the illegitimate son of a French officer and an enslaved West African woman from a high-ranking family. At only 25 years old, Geoffroy-Lislet had become a valuable employee of the royal engineering department, based on the neighboring island of Isle de France (Mauritius). Writing on his behalf, the governor-general requested that Geoffroy-Lislet be given an official commission from the Royal Court at Versailles: “I have the honor of forwarding to you [the Minister of the Navy] an address from Mister Lislet, a Creole Mulatto…employed by the engineering [department] of this colony as a draftsman. [He requests a] letter from the king to confirm him in this position, with no raise in pay. Mr. Lislet is a very rare subject, infinitely useful where he is employed. … In any case, the letter he is requesting would flatter him and would lift him out of the class into which he was born and to which he is superior, through both his knowledge and distinguished conduct and sentiments. . . . He is the best of the men of his kind in this colony and perhaps [the world].”*[^83] *The governor-general’s letter suggests that Geoffroy-Lislet could achieve greater social parity with whites through an official document from the king confirming him as an employee on the royal payroll—a rank typically out of reach to so-called free people of color. It is unclear whether the commission was ever granted, however, and Geoffroy-Lislet was censused as part of the “coloured” population of Mauritius (under British rule beginning in 1810) until his death in 1836. The following letter was apparently written that year by Geoffroy-Lislet himself and addressed to a colleague in Paris (likely a fellow member of the French Academy of Sciences). It offers details about his life and career and includes reaction to the era of the French and Haitian Revolutions. This copy appears in a nineteenth-century volume on the biographies of famous scientists.*[^84]
 
 
-![Miniature of Jean-Baptiste Lislet-Geoffroy](Images/lislet-geoffroy-miniature.jpg)
-
-
-*Miniature of Lislet-Geoffroy, private collection, restored in 1998 by Emmanuel Richon.*
+<figure>
+    <img src="https://images.nypl.org/index.php?id=58714345&t=w&download=1&suffix=38bb4b80-afbf-013b-36f1-0242ac110002.001" alt="Portrait of Jean-Baptiste Lislet-Geoffroy by Albert Alexander Smith, 1930s. Watercolor. Schomburg Center for Research in Black Culture, New York Public Library.">
+    <figcaption>Albert Alexander Smith, portrait of Jean-Baptiste Lislet-Geoffroy, 1930s. Watercolor. Schomburg Center for Research in Black Culture, New York Public Library. See also the miniature restored in 1998 by Emmanuel Richon.</figcaption>
+</figure>
 
 I was born on the island of Bourbon, August 23, 1755, to Niama, *négresse* of Guinea. She was the granddaughter of Tonca Niama, king of Galam, who was captured in a war and massacred along with all the males of his family, according to a custom that is quite common in those countries. My mother, then about nine years old, was reduced to slavery and sold to the [French East India] Company’s agents, who sent her to Isle de France in around 1730. Mr. Geoffroy obtained [permission] from Mr. David, governor of that colony, to free her. She followed him to Bourbon, where she cared for him in his old age. Mr. Geoffroy wanted to take care of me in my childhood and to raise me himself; he taught me the basic principles of drawing and mathematics; he also wanted me to take Latin, a subject in which I made little progress. As I had no fortune, he entered me into the service in my fifteenth year, and soon after, I went to Isle de France, where the *chevalier* de Tromelin, former rear admiral, believing me well-disposed for the Navy, employed me at the construction site of the new port, which he was in charge of.
 
 While I was there, with books and instruments at my disposal, I applied myself to the study of mathematics and astronomy. Not being able to procure teachers, Mr. de Tromelin wished to assist me with his advice and encouragement. I owe the few talents that I was able to acquire and my advancement in the service to this generous mentor. Out of gratitude and loyalty, I embarked with him at the beginning of the war of 1778 as an assistant navigator (*aide-pilote*). In 1780, I received a job as a draftsman in military engineering on Isle de France. On the 23rd of August 1786, I was elected to become a corresponding member of the Royal Academy of Sciences in Paris. I sent to this learned society twelve years of meteorological observations and a series of experiments on the strength and weight of the various kinds of wood in this colony, first conducted by Mr. Malavois, which I was instructed to complete after his departure. In 1787, the Governor General sent me to Sainte-Luce Bay, on the south end of the island of Madagascar; I mapped this bay and the country up to fifteen leagues inland, where I visited the thermal waters of the Amboule Valley; I sent these waters to the *duc* de La Rochefoucauld, in Paris. My journal was printed in *Modern Travels*[.] In 1788, I was charged with mapping a part of Isle de France; this work was sent to the depot in Paris, and earned me a commission as engineer-geographer here.
 
 
-![British Army landing at Isle de France, November 1810](Images/upton-castle-landing-mauritius.png)
-
-
-*View from the Deck of the Upton Castle Transport, of the British Army Landing [at Isle de France, November 1810] (Date: 13 April 1814, National Maritime Museum, Greenwich)*
+<figure>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/2/23/Upton_Castle_at_Ile_de_France_1810.jpg" alt="View from the Deck of the Upton Castle Transport, of the British Army Landing at Isle de France, November 1810. National Maritime Museum, Greenwich.">
+    <figcaption>View from the Deck of the Upton Castle Transport, of the British Army Landing at Isle de France, November 1810. Painted in 1814. National Maritime Museum, Greenwich, London.</figcaption>
+</figure>
 
 During the difficult times of the [French] Revolution, I was fortunate enough to help save this colony from the misfortunes and disasters that befell our Occidental colonies [*i.e.*, the Antilles]. True to my principles, I wanted to earn the trust of my leaders and of the people of color, whose assemblies I chaired, and we avoided the unfortunate events that threatened to befall us in 1794.
 
@@ -986,10 +971,10 @@ An engraving was ordered made in England by the quartermaster general of the par
 <em>Jean Evenor Hitié was born in Port-Louis, Mauritius on June 19, 1806, four years before the French colony was conquered by the British. He received a primary education before becoming a baker, businessman, theater director, sugar plantation owner, and rum-maker (</em>guildivier<em>). In 1863, he founded a newspaper,</em> Le Progrès Colonial <em>(Colonial Progress), through which he became a spokesperson for free men of color, a population which had suffered increasing discrimination from the white oligarchy. Late in life, in 1897, he penned the first volume of his</em> Histoire de Maurice <em>(History of Mauritius), derived in large part from interviews with his contemporaries; no second volume was ever published (and no manuscript has ever been found). Hitié died in 1901.</em>[^88]
 
 
-![Portrait of Jean Evenor Hitié](Images/evenor-hitie-portrait.png)
-
-
-*This photograph may be the only surviving portrait of Jean Evenor Hitié. Private archives of Sténio Félix, published on his personal blog 31 July 2015 ([https://histoireithier.blogspot.com/2015/07/biographie-devenor-hitie.html](https://histoireithier.blogspot.com/2015/07/biographie-devenor-hitie.html))*
+<figure>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6c/Numa_Desjardins_Champ_de_Mars_Port_Louis_1880.jpg" alt="Numa Desjardins (1826–?). Champ de Mars, Port Louis, 1880. Oil on canvas, 60 x 98 cm. The diversity of the population in late-19th-century Mauritius is visible in the foreground.">
+    <figcaption>Numa Desjardins. Champ de Mars, Port Louis, 1880. Oil on canvas, 60 x 98 cm. Düsseldorf Auction House.</figcaption>
+</figure>
 
 (page 99) Let's not forget that in 1798 and 1800, the question of the [racial] populations was so firmly established that men of color, though armed and in greater numbers, dared not ask for anything. They did everything they could for the good of the country, yet nothing was granted to them; there wasn't even a government school where children of color could receive the first elements of the French language. Amidst all the disorders taking place, the Colonial Assembly founded the Colonial College, which today bears the name Royal College. This institution was created in January 1791, with more than four hundred students, all of them from the so-called white population. At that time, when the French were constantly speaking of liberty, equality, and fraternity, the French colonists of the colonies held the unfortunate men of color, with whom most of them shared the same paternity, under the most tyrannical yoke.
 
