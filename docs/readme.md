@@ -7,6 +7,7 @@
 
 Nathan E. Marvin
 
+<a id="contents"></a>
 ## Contents
 
 - [Preface](#preface)
@@ -171,6 +172,9 @@ What do these formalities consist of? [The lawyers quoted “literal terms as th
 
 <em>The magistrates of the Parlement of Paris ruled in favor of Francisque’s freedom, but what were the implications of the case were the vast majority of slaves in the French colonies of the Americas and beyond who did not</em> <em>match the specific background and circumstances of Francisque? Was he declared freed on the basis of race, as a native of India rather than Africa? As French judges never publicly stated the rationales for their decisions (unlike U.S. Supreme Court justices), we cannot know on what grounds Francisque was ruled free. However, his victory seems to have had an impact on future jurisprudence. Afterward, the number of slaves suing for their freedom in the Paris Admiralty Court increased dramatically, and all of them won their cases. However, in 1777, the French navy minister (who had purview over the colonies) circumvented the Parlement’s objections by instituting new legislation that omitted the word slave: his new “Police des Noirs” controls prohibited the entry of “blacks, mulattoes, and other people of color” into France, regardless of their slave status, substituting race for class. Those already present in the metropole were forced to register with the state, and eleven percent of those who did so hailed from the Indian Ocean colonies: many were slaves and free persons of Indian descent.</em>[^17]
 
+[↑ Back to Contents](#contents)
+
+
 <a id="ban-on-enslavement-of-south-asians-in-french-india"></a>
 ### Ban on Enslavement of South Asians in French India[^18] 
 
@@ -206,6 +210,9 @@ March 15, 1793. The legislative colonial Assembly, deliberating on the communica
 
 Pondicherry, March 16, 1793. Signed, the Governor of Pondicherry. P. Chermont.
 
+[↑ Back to Contents](#contents)
+
+
 <a id="two-origin-myths-from-madagascar"></a>
 ### Two Origin Myths from Madagascar
 
@@ -228,12 +235,18 @@ The most learned of the <em>ombiasy</em> of this country, fifty years old, was h
 
 ><em>Etienne de Flacourt’s popular book</em>, Histoire de Madagascar, <em>published in 1656, upon returning from his tenure as governor of the French post on that island, disseminated Europeans' understanding of southeastern Malagasy society as broadly divided between “white” and “black” populations. Detailed engravings feature married couples from the two populations: “Rohandria or Madagascar chiefs, who are white” and “Lohavohits or Village Master who are black and have frizzy hair.” According to historian Claude Allibert, it is plausible that the copperplate etchings featured in the book were based on drawings Flacourt made himself in Madagascar.</em>[^23]
 
+[↑ Back to Contents](#contents)
+
+
 <a id="observations-of-a-french-missionary-on-the-population-of-bourbon-island"></a>
 ### Observations of a French Missionary on the Population of Bourbon Island[^26] 
 
 <em>Unlike in the Antilles, migration to Bourbon was not significant, and most European immigrants had few qualms marrying into established “white” families with non-European antecedents. Local traditions were accepted and defended by royal administrators: on Bourbon, since the earliest days of settlement in the 1660s, a local convention held that legitimate mixed-race children followed the status of their white fathers, resulting in a “white” population, the majority of which had either Malagasy or South Asian foremothers. The uniqueness of Bourbon’s racial binary is perhaps best encapsulated in an explanation one missionary offered to his superior back in France, in 1764.</em>
 
 [Here] free people (libres) are generally called whites, even though some are black or very dark-skinned (<em>fort bazannés</em>) [and] blacks [refers to all] slaves, even mistiches or métisses, meaning [those] born of a White man and a Negress.
+
+[↑ Back to Contents](#contents)
+
 
 
 <a id="an-imperial-pronouncement-on-race-and-status"></a>
@@ -244,6 +257,9 @@ The most learned of the <em>ombiasy</em> of this country, fifty years old, was h
 Statement of the King to Serve as Instructions for <em>Sieur</em> Bruny d’Entrecasteaux, <em>Chef de Division</em> [in the Navy], Governor of the Isles of France and Bourbon, & for <em>Sieur</em> Dupuy, <em>Conseiller au Châtelet,</em> Intendant of the said Islands.[^29]
 
 [...] <em>Population</em> [...] Regarding the People of Color, there are freemen (<em>libres</em>) and slaves; the freemen are former slaves (<em>affranchis</em>) or their descendants. Prejudice against those who are descended from ex-slaves and who are a great distance from their [slave] origin is not as strong and as rigid in the Isles of France and Bourbon as it is in the occidental islands [of the Caribbean]. Given these circumstances, we leave it to the discretion of Messrs. d’Entrecasteaux and Dupuy to allow (<em>apprécier</em>) any conventions (<em>convenances</em>) that seem purely local. The first inhabitants of Bourbon being European refugees from Madagascar after the massacre that took place [in 1674], and the wives they conducted thither being Malagasy but of freeborn race (<em>de race ingénue</em>[^30]), it does not seem correct to consider their descendants as descendants of freed slaves in the sugar colonies [of the Caribbean]; and it’s a new reason for the Messrs. d’Entrecasteaux and Dupuy to ceaselessly occupy themselves with weakening prejudices against the blacks & the People of Color, all while endeavoring to inspire in the slaves a great respect for those to whom they are subjugated, to maintaining them in discipline, to preventing plots [among them], & avoiding both gatherings (<em>attroupements)</em> and escapes (<em>marronages</em>).
+
+[↑ Back to Contents](#contents)
+
 
 <a id="crisis-on-bourbon-island"></a>
 ### Crisis on Bourbon Island[^31]
@@ -265,6 +281,9 @@ Entrecasteaux
 
 
 <em>Author’s Map. Cossigny’s estimate that as many as three-quarters of Bourbon Island’s approximately 8,000 whites had non-European ancestors was not an exaggeration. It was an open secret in the Mascarenes that most white creole families from Bourbon could trace their lineage back to a foremother who had migrated from Madagascar or India shortly after the island first began to be settled in the seventeenth century. This map depicts the birthplaces (with modern country borders shown) of the grandparents of adults registered as white on the 1711 census. 72% of Creole (island-born) whites had at least one non-European grandparent (South Asian or Malagasy). (Sources: “Recensement de 1711,” Archives Nationales d'Outre-Mer, FM DPPC G1/477; Ricquebourg, Lucien Jacques Camille.</em> Dictionnaire généalogique des familles de l’île Bourbon (La Réunion) 1665-1810. <em>3 vols. Mayenne: Imprimerie de la Manutention, 1983.</em>
+
+[↑ Back to Contents](#contents)
+
 
 
 <a id="the-french-revolution-and-the-politics-of-race"></a>
@@ -385,6 +404,9 @@ The <em>Apollo</em>, a small merchant vessel, which departed Isle de France on 8
 
 I wrote to Isle Bourbon all afternoon. I went to dine with Mr. Dromane. The colony of St. Domingue is in the most distressing position. The colony is seen as lost. What a distressing disaster! I will now be silent on this subject; I am too heartbroken.
 
+[↑ Back to Contents](#contents)
+
+
 <a id="petitions-of-the-colony-of-bourbon-to-the-national-assembly"></a>
 ### Petitions of the Colony of Bourbon to the National Assembly[^38]
 
@@ -393,6 +415,9 @@ I wrote to Isle Bourbon all afternoon. I went to dine with Mr. Dromane. The colo
 The Colonial Assembly of Bourbon Island dares to offer to the august representatives of the French nation our homage and gratitude and respectful devotion that fills all the Frenchmen established in this Colony. […] We ask the National Assembly to look favorably on these petitions that we are about to put before it […]
 
 Article 5. The colonial assembly did not think it necessary to allow the free or freed blacks to attend as active citizens in the primary assemblies. It has only [granted them the same status as] widowed women or those separated from their husbands…who, though possessing (sometimes considerable) property and paying the <em>commune</em> tax, cannot, according to the Decrees of the National Assembly adopted in this colony, attend the assemblies, nor be represented there. But the assembly hastened to put an end to the vexations [the free or freed blacks] experienced under the despotism of the former government, and assured them of all the rights that civil liberty gives them, thus making no difference between whites and free blacks, except in what follows. [The Assembly] decided that all the free blacks would be summoned to each parish by the Mayor and would take an oath swearing obedience to the law and respect towards whites; that [in terms of militia service]…they would [be allowed] to appoint from among them only subaltern officers and would be obliged to chose only whites as their officers. As far as their political status is concerned, the Colonial Assembly awaits the decision of the National Assembly, and will undoubtedly conform to whatever this august senate pronounces for the other Colonies and particularly for Isle of France, on which the Isle of Bourbon depends for so many needs. The [Colonial] Assembly [of Bourbon] will only observe that a few whites in this colony who married manumitted <em>négresses</em> have always enjoyed, along with their posterity, all the rights enjoyed by other citizens. We ask the National Assembly to confirm this provision, which, in accordance with the principles of equality which it professes, must be adopted, as there is no strong reason against it[.] And if the National Assembly decides otherwise for the other colonies, according to their [i.e. the other colonies’] wishes, we expressly request for the Isle of Bourbon a special exception.
+
+[↑ Back to Contents](#contents)
+
 
 <a id="speech-of-pierre-antoine-monneron-to-the-national-assembly-paris-may-13-1791"></a>
 ### Speech of Pierre Antoine Monneron to the National Assembly, Paris, May 13, 1791[^39]
@@ -425,6 +450,9 @@ Pride blinds men so much that they ignore their own interest and safety. Indeed,
 There is still time to prevent these misfortunes and the National Assembly would rather not scandalize the world by admitting a project which, if it were possible to enforce, would forever put in chains 100,000 citizens who were born free and should enjoy all the benefits of society. Thus the public interest, especially that of the colonists, obliges me to conclude by imploring the National Assembly to decide the matter of the proposed decree presented by the five united committees [and] to adopt that of M. Barrère, with this amendment: “without changing anything on the status of freedmen [ex-slaves].”
 
 (<em>The Assembly decrees the printing of Mr. Monneron’s speech</em>)
+
+[↑ Back to Contents](#contents)
+
 
 
 <a id="opposing-abolition-conservative-reactions"></a>
@@ -519,6 +547,9 @@ This article does not allow the Directory to determine the costume of its agents
 
 <em>The proposal was adopted, and a nominated commission withdrew immediately to deal with this object.</em>
 
+[↑ Back to Contents](#contents)
+
+
 <a id="a-panicked-dispatch-from-reunion-island"></a>
 ### A Panicked Dispatch From Réunion Island[^47]
 
@@ -541,6 +572,9 @@ Your devoted concitizen,
 Felipaud
 
 P.S. Citizen Laroche, Sr. was at the outbreak of the Troubles of St Domaingue (<em>sic</em>)[.] He is staying with Cit. Marcelain Dejan, with prudence, you will be able to learn the truth [from him].
+
+[↑ Back to Contents](#contents)
+
 
 <a id="the-baco-and-burnel-expedition-the-commissioners-report-9-vendemiaire-year-v-30-september-1796"></a>
 ### The Baco and Burnel Expedition: The Commissioners’ Report[^48] 9 Vendémiaire Year V [30 September 1796] 
@@ -617,6 +651,9 @@ As for the generals Sercey and Magallon, if they are not partisans of the crime 
 
 Citoyens Directeurs, just crimes shed light on the plans of the Colonists. All have set their sights on independence in the two hemispheres; in the East Indies as in the West Indies, they have looked to free themselves from the yolk of France, from the moment when the law began repressing pride or greed. The means to employ…were to be the same everywhere, and while the plan circulated in Paris to make Saint-Domingue a separate and isolated power, a colonist from Isle de France,[^60] in a publication that proclaimed to have been printed by order of the Convention and disavowed by it at the moment of its very distribution, publicly attached the Decree of 16 Pluviôse Year II. The liberty of the blacks had armed the factious people of Saint-Domingue and the Windward Islands; it was the first spark in the fire that consumed the beautiful city of Le Cap [François]. It delivered a part of our Antilles to the Enemy. The fear of the Decree that proclaimed it, caused the Civil Commissioners who preceded your agents on Isle de France to be arrested and dragged into prison (<em>dans les cachots</em>). If one needed more proof of the similarities between the plans of the Colonists, I would cite a letter, deposited at the Bureau of the Colonies, in which one reads of a project made for Saint-Domingue, that which was just carried out in the East Indies. Then, it was a question of the law that rendered men of color their political rights [the law of 4 April 1792], and the proud colonist who commented on this law expressed himself thus: “<em>If France sends us Commissioners imbued with these principles, they will not be received among us, and we will have the strength to disobey their decrees</em>.” The colonists of Saint-Domingue were not able to execute their deportation project against the civil authorities. [But] this project has just been realized by the colonists of Isle de France. […]
 
+[↑ Back to Contents](#contents)
+
+
 <a id="american-merchants-react"></a>
 ### American Merchants React[^61]
 
@@ -647,6 +684,9 @@ The peaceful planter cultivates his fields while the thunder roars in vain above
 
 <em>Detail from “Etat des Batimens entrés dans la dite Rade [St Denis] 1 to 30 June 1806, ANOM C3-25, item 111, showing American involvement in trade between Madagascar and the Mascarenes, including in enslaved captives.</em>
 
+[↑ Back to Contents](#contents)
+
+
 
 <a id="the-colonial-assembly-of-reunion-island-to-paris-1797"></a>
 ### The Colonial Assembly of Réunion Island to Paris, 1797[^63]
@@ -673,12 +713,8 @@ By the Colonial Assembly
 Signed, Ozoux, Lefébure Marcy, secretaries
 
 
-<div>
-<iframe src="https://storymaps.arcgis.com/stories/b1bc426d32c14319a6bd5242c898ed12" width="100%" height="600" frameborder="0" allowfullscreen></iframe>
-</div>
+[↑ Back to Contents](#contents)
 
-<em>Interactive map: Main Sites of the Visit of Civil Commissioners Baco and Burnel and the Proslavery Riot, Port-Louis, Mauritius (1796).</em>  
-[Open the interactive map](https://storymaps.arcgis.com/stories/b1bc426d32c14319a6bd5242c898ed12)
 
 <a id="a-mauritian-colonists-perspective-frederic-descroizilles-1796-and-1802"></a>
 ### A Mauritian Colonist’s Perspective: Frédéric Descroizilles, 1796 & 1802[^66]
@@ -707,6 +743,9 @@ The [number of] individual manumissions (<em>des affranchissements partiels</em>
 
 What, instead, were the reckless innovators preparing? The terrible lesson of the misfortunes of the other Colonies was lost on them. These <em>black</em> [<em>sic</em>] philanthropists who, without any knowledge of the country they were going to wreak havoc upon, without taking any precaution to remove 12,000 Frenchmen from the blind fury of foreigners whom they prefer to us from a distance of 4,500 leagues, ordered a change that...could only have been attempted if they had sent enough vessels to our port to transport all of the white inhabitants out of the Colony[.] What were they preparing for us? Death, awful death, distant as we are from most of our families and deprived of their consolations. Perhaps they will still destine us for [death], as punishment for having resisted their orders. Between running the risk of dying in this way or certain death at the hands of fanatical cannibals, the choice could not be clearer. Whatever may happen, we will always remain attached to the Fatherland, and we will prove it, not through vain speeches, but through our fervor in fighting its enemies and ruining their immense commerce in these seas.’
 
+[↑ Back to Contents](#contents)
+
+
 <a id="a-mauritian-colonists-memoir-francois-le-forestier-1812"></a>
 ### A Mauritian Colonist’s Memoir: François Le Forestier, 1812[^68]
 
@@ -719,6 +758,9 @@ What, instead, were the reckless innovators preparing? The terrible lesson of th
 <em>Page 19 from the Journal of François Le Forestier, describing the coup that expelled Baco and Burnel. Author’s photograph.</em>
 
 “[In 1796] the Directory of France had sent fifteen hundred troops, and two representatives of the People, named Bâco and Burnel[.] The latter was known to have lived on Isle de France before, where he exercised the professions of lawyer and journalist; he had made himself known as a very bad subject. So they distrusted these gentlemen, and with great reason, because they wanted to put the decree granting liberty to the blacks into execution[.] Had that happened, the whites would have all perished[,] as in Saint-Domingue. The colonial assembly sent word out to the countryside at once, and everyone [i.e. white planters from the country] arrived [in Port Louis] during the night, armed with all kinds of weapons[.] They [the members of the Colonial Assembly] had also made the arrangements for three ships to send these gentlemen back. Indeed, at half-past eleven in the morning, the people and the troops assembled, the fifteen hundred men were forced to embark, as well as the two scoundrels (<em>coquins</em>). An enemy of the revolution fired on Burnel as he began to harangue the people, but his pistol failed to discharge. And so they departed, and calm was restored immediately. It must be noted that Isle de France demonstrated in these circumstances an energy and a character that the other colonies would have been good to replicate should such scoundrels be sent to them as well.”
+
+[↑ Back to Contents](#contents)
+
 
 <a id="a-bourbon-colonists-perspective-joseph-de-villele-ca-1820s"></a>
 ### A Bourbon Colonist’s Perspective: Joseph de Villèle, ca. 1820s[^69]
@@ -756,6 +798,9 @@ The two colonies were thus miraculously saved from the greatest danger which cou
 
 . . . Towards the end of January 1802, we received by an aviso the unexpected news of the signing of the Peace of Amiens, and a few months later the frigate <em>Themis</em> brought us the confirmation of this peace and the assurance given by the the French government that it had renounced [forcing us to] execute the fatal decree . . . At the time we had learned of the Villaret-Joyeuse expedition, noting the persistence of the government of 18th Brumaire to in following in the footsteps of its predecessors, we had sent an address to Bonaparte himself, which I signed as president of the Colonial Assembly [of Réunion]. After explaining all the reasons we believed sudden and general emancipation [would pose a threat to] our own lives, we ended the address by declaring that, if the First Consul [Bonaparte] persisted in the fatal disposition of which his minister informed us, we would sooner bury ourselves under the ruins of the colony to repel his soldiers, rather than die like cowards under the blows of our slaves as had the colonists of Saint-Domingue. We were told that when the letter was presented to Bonaparte, he tore it to pieces in rage. The news that the <em>Themis</em> brought us proved that we had moved the heart of this lucky soldier, and that in a smart policy move, after the initial emotion had passed, he chose justice and reason over resentment.
 
+[↑ Back to Contents](#contents)
+
+
 <a id="napoleons-proclamation-on-saint-domingue-colonial-haiti-and-toussaint-louvertures-reponse"></a>
 ### Napoleon’s Proclamation on Saint-Domingue (Colonial Haiti) and Toussaint Louverture’s Reponse[^70]
 
@@ -783,6 +828,9 @@ If there are ill-intentioned men in the colony, if there are those who still hav
 
 It is not a circumstantial freedom conceded to ourselves alone that we want. It is the adoption of the principle that any man born red, black, or white cannot be the property of his fellow man. We are free today because we are the stronger party. The Consul maintains slavery in Martinique and Bourbon; we too will be slaves when he is the stronger.[^71]
 
+[↑ Back to Contents](#contents)
+
+
 
 <a id="napoleon-confirms-the-maintenance-of-slavery-in-the-mascarenes-1802"></a>
 ### Napoleon Confirms the Maintenance of Slavery in the Mascarenes, 1802[^72]
@@ -805,12 +853,18 @@ Such is the firm and immutable will of the Government, & I do not have to add th
 
 Signed [Denis] DECRÈS
 
+[↑ Back to Contents](#contents)
+
+
 <a id="opinions-of-a-refugee-from-saint-domingue-in-louisiana"></a>
 ### Opinions of a Refugee from Saint-Domingue in Louisiana
 
 Baudry des Lozières, Louis Narcisse. <em>Voyage à la Louisiane et sur le continent de L’Amérique septentrionale, fait dans les années 1794 à 1798</em>. Paris: Dentu, 1802 (pp. 108-109).
 
 Wise colonists of the East Indies, it is to your remoteness that you owe your happiness! The lack of communication prevented the plague of the West Indies from infecting you. Continue to be wise, and may your bravery always know how to combine humanity with the interests of the fatherland. Hate slavery’s abuses, but hate that bloody liberty [<em>i.e.</em>, the abolition decree of 1794] even more; it only produced executioners and victims, violate[d] property, stole labor owed to the fatherland, and favored laziness and ignorance. Freedom is a dish not suited for all stomachs; it demands, at all times, and especially in the colonies, the wisest of preparations. So always resist the efforts of foreigners who would lead you astray (<em>vous perdre</em>) by the same means that were all too successful in the West Indies. Our government is wise. It desires the wellbeing of all. It will applaud your generous efforts, and your resistance to oppression will not be regarded as a rebellion against liberty, as an inhuman love for hard slavery (<em>le dur esclavage</em>), but as the product of a wise local strategy (<em>combinaison</em> <em>des localités</em>).
+
+[↑ Back to Contents](#contents)
+
 
 <a id="observations-of-a-conservative-former-colonial-minister-1802"></a>
 ### Observations of a Conservative Former Colonial Minister, 1802
@@ -822,6 +876,9 @@ As I write this, peace has been proclaimed [between France and Britain, by the T
 Reunion Island’s [agricultural] products will continue to be an important object of commerce for the metropole; but we must not be foolish enough to assume that the costs of guarding and policing these two islands will be less onerous in the future than they were during the war. For the last ten years, they [the islands] have been self-sufficient [in covering] garrison and administration [expenses], which, before the revolution, amounted to several million [<em>francs</em>].[^74] [In terms of] colonial government…I would like the administration of the islands of France and Reunion to serve as a model for the other colonies, for two important reasons. The colonists (<em>habitants</em>) were able to pay most of their public expenditures from their own [i.e. the colonies’ own] revenues; they have also adopted policing measures of such good sense and vigor, that their domestic peace (<em>tranquillité intérieure</em>) has not been disturbed, and subordination has been maintained in their planting gangs (<em>ateliers</em>) [i.e. among their slaves].
 
 We could not do better than to leave things in this state.
+
+[↑ Back to Contents](#contents)
+
 
 
 <a id="napoleon-interviewed-in-exile-on-st-helena-ca-1816"></a>
@@ -848,6 +905,9 @@ The Emperor put many questions to him concerning the Isle of France, lately cede
 
 [<em>From Volume 3</em>] After dinner, the Emperor had [books by the authors] Buffon and Valmont de Bomare brought to him. He looked at what these authors say respecting the diversities in the human species, the difference between a negro and a white; but he was not much satisfied with what he found in them on the subject. He retired early to his apartment: he was unwell.
 
+[↑ Back to Contents](#contents)
+
+
 <a id="perspectives-of-people-of-color"></a>
 ## Perspectives of People of Color
 
@@ -865,6 +925,9 @@ The Emperor put many questions to him concerning the Isle of France, lately cede
 <em>In March 1793, an enslaved domestic servant named Jeanne was called into the municipal offices of Saint-Pierre for questioning. A white creole man, Olivier Payet, had reported an encounter with Jeanne in the street as she was walking to market to purchase</em> fouquets, <em>a kind of seabird. According to Payet, Jeanne said to him: “So, Monsieur Olivier, we’re having a war on Easter to get our freedom?” She explained her confusion upon hearing the bells ringing after leaving church on Sunday. The “primary assembly,” composed of prominent white men in the parish (elected by their peers) was convening. Someone told Jeanne that they were to discuss an emancipation decree that had lately arrived from France. In the remainder of her testimony, Jeanne reveals not only the surprising extent to which such rumors were circulating, but also her own despair that their long-hoped-for freedom might never come. Jeanne gave her deposition in the creole dialect of the island. Here she recalls what she said to the slaves in the street that day:</em>
 
 I said, ah, people have been talking about giving freedom to the blacks for a long time now. Stop talking about it, why don’t you. I would be happy, of course, but it’s no use, right? We are worth too much money to them. Would they just give us freedom like that[?] No, they would sooner wage a war than give us our freedom. … We always hear talk of freedom, freedom. We would be happy to have it, if they give it[.] That’s not to say we would wish ill on anyone.
+
+[↑ Back to Contents](#contents)
+
 
 <a id="memoirs-of-a-sailor-from-isle-de-france-early-19th-century"></a>
 ### Memoirs of a Sailor from Isle de France (Early 19<sup>th</sup> Century)[^79]
@@ -935,6 +998,9 @@ Go find me one of those black men from the depths of <em>Négritie</em> [a histo
     <figcaption>Medal commemorating the British capture of Isle de France and surrounding islands, highlighting the role of Sepoys (Indian soldiers who fought for the British), circa 1811. National Maritime Museum, Greenwich, London.</figcaption>
 </figure>
 
+[↑ Back to Contents](#contents)
+
+
 <a id="autobiographical-letter-lislet-geoffroy"></a>
 ### Autobiographical Letter, Lislet-Geoffroy
 
@@ -966,6 +1032,9 @@ Under the English government, Mr. Farquhar, governor of Isle de France,[^86] sen
 
 An engraving was ordered made in England by the quartermaster general of the particular map of Isle de France that I created (<em>dressée</em>) with much care, and whose accuracy I can guarantee. I sent a copy in the mail to Paris in 1808, but it seems that it was taken en route.
 
+[↑ Back to Contents](#contents)
+
+
 <a id="historical-writings-of-a-journalist-from-isle-de-france-late-19th-century"></a>
 ### Historical Writings of a Journalist from Isle de France (Late 19<sup>th</sup> Century)[^87]
 
@@ -984,6 +1053,9 @@ When we reflect upon the events in St. Domingue, Martinique, and even Bourbon it
 Besides the great Labourdonnais, who showed justice toward mixed-blooded men (<em>hommes de sang-mêlé</em>) and Africans, all the French governors of Isle de France, without exception, allowed themselves to succumb to [...] prejudices.
 
 For instance, consider the history of Saint Domingue, the most prosperous colony in existence by 1780. Examine the events in Martinique, Guadeloupe, Bourbon, and Mauritius, during its time as the Isle de France, and you will discern the validity of our perspective. [...] It was the French colonists themselves who bore sole responsibility for the downfall of all French colonies. Their insistence on upholding irrational prejudices within these colonies relegated the entire French empire to a subordinate position compared [to Britain’s].
+
+[↑ Back to Contents](#contents)
+
 
 [^1]: Jane Hooper and David Eltis, “The Indian Ocean in Transatlantic Slavery,” <em>Slavery & Abolition</em> 34, no. 3 (November 2012): 353–75.
 
