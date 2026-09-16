@@ -1,5 +1,4 @@
-<a id="freedom-deferred"></a>
-# <em>Freedom Deferred</em>
+
 
 <strong>Slavery, Resistance, & the Politics of Race in France’s Indian Ocean Colonies During the Age of Revolution</strong>
 
