@@ -18,8 +18,7 @@ body {
   }
 }
 </style>
-<br><br>
-<br><br>
+
 <strong>Slavery, Resistance, & the Politics of Race in France’s Indian Ocean Colonies During the Age of Revolution</strong>
 
 <em>A Documentary Reader</em>
