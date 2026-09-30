@@ -427,11 +427,11 @@ Article 5. The colonial assembly did not think it necessary to allow the free or
 <a id="speech-of-pierre-antoine-monneron-to-the-national-assembly-paris-may-13-1791"></a>
 ### Speech of Pierre Antoine Monneron to the National Assembly, Paris, May 13, 1791[^39]
 
-<em>Engraving: “The Three Brothers Monneron, députés to the National Assembly.” From left to right: Charles-Claude-Ange, 1735-1799, representing the sénéchaussée of Annonay, in southeastern France; Jean Louis, 1742-1805, representing the East Indies; Pierre-Antoine, 1747-1801, representing the colony of Isle de France (Mauritius). Translated, the caption reads: "Liberty Under the Law." Published in Paris by Dejabin between 1789 and 1791. Image Source: Notice bibliographique de la Bnf.</em>
+<em>Engraving: “The Three Brothers Monneron, députés to the National Assembly.” From left to right: Charles-Claude-Ange, 1735-1799, representing the sénéchaussée of Annonay, in southeastern France; Jean Louis, 1742-1805, representing the East Indies; Pierre-Antoine, 1747-1801, representing the colony of Isle de France (Mauritius).</em>
 
 <figure>
    <img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Fr%C3%A8res_Monneron.jpg" alt="Engraving of the Three Brothers Monneron, députés to the National Assembly. From left to right: Charles-Claude-Ange, Jean Louis, and Pierre-Antoine. Published in Paris between 1789 and 1791.">
-   <figcaption>Engraving of the Three Brothers Monneron, députés to the National Assembly. Published in Paris between 1789 and 1791. Image Source: Bibliothèque nationale de France (BnF).</figcaption>
+   <figcaption>Engraving of the Three Brothers Monneron, députés to the National Assembly. Translated, the caption reads: "Liberty Under the Law." Published in Paris between 1789 and 1791. Image Source: Bibliothèque nationale de France (BnF).</figcaption>
 </figure>
 
 Mr. MONNERON: Article One of the drafted law of the committee decrees, as a constitutional article, that the legislature can make no law for the colonies on the status of persons unless upon the specific and formal request of the colonial assemblies. I would adopt this article if it were not so vaguely worded.
