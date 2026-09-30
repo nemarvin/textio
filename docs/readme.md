@@ -1,24 +1,23 @@
 <style>
+html {
+  background-color: #2f2f2f;
+}
+
 body {
   max-width: 1200px;
   min-height: 100vh;
   margin: 0 auto;
-  border-left: 80px solid #2f2f2f;
-  border-right: 80px solid #2f2f2f;
-  box-sizing: content-box;
-}
-
-@media (max-width: 900px) {
-  body {
-    border-left: 40px solid #2f2f2f;
-    border-right: 40px solid #2f2f2f;
-  }
+  background-color: #ffffff;
+  box-sizing: border-box;
 }
 
 @media (max-width: 700px) {
+  html {
+    background-color: #ffffff;
+  }
+
   body {
-    border-left: none;
-    border-right: none;
+    max-width: 100%;
   }
 }
 </style>
