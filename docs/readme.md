@@ -933,9 +933,9 @@ I said, ah, people have been talking about giving freedom to the blacks for a lo
 <a id="memoirs-of-a-sailor-from-isle-de-france-early-19th-century"></a>
 ### Memoirs of a Sailor from Isle de France (Early 19<sup>th</sup> Century)[^79]
 
-<em>A remarkable illustrated manuscript survives in the Carnegie Library on the island of Mauritius. It was written by a free man of color named Jean-Baptiste Tabardin, who spent much of his youth (like many in his milieu) aboard the privateering vessels that shipped out of Port-Louis (Mauritius) and preyed on British and other enemy vessels. These extracts of Tabardin’s memoir recall his imprisonment aboard a prison hulk in Portsmouth, England, following his capture by the British Navy. Tabardin eventually secured his release from prison by answering a call for recruits: he entered into British naval service as a captain’s butler. In the extract below, he describes a moment in which he hesitated before defecting to the British, concerned that he would be seen as unpatriotic or, worse, as a traitor to the French nation. He recalls a letter transmitted to him by a relative.</em>
+<em>A remarkable illustrated manuscript survives in the Carnegie Library on the island of Mauritius. It was written by a free man of color named Jean-Baptiste Tabardin, who spent much of his youth (like many in his milieu) aboard the privateering vessels that shipped out of Port-Louis (Mauritius) and preyed on British and other enemy vessels. These extracts of Tabardin’s memoir recall his imprisonment aboard a prison hulk in Portsmouth, England, following his capture by the British Navy. Tabardin eventually secured his release from prison by answering a call for recruits: he entered into British naval service as a captain’s butler. In the extract below, he describes a moment in which he hesitated before defecting to the British, concerned that he would be seen as unpatriotic or, worse, as a traitor to the French nation. He recalls a letter transmitted to him by a relative: Tabardin’s cousin and fellow prisoner-of-war, Stanislas Moutou.</em>
 
-[<strong>p. 116] Second Letter of Stanislas Moutou [Tabardin’s cousin and fellow prisoner-of-war]:</strong>
+<strong> Second Letter of Stanislas Moutou: </strong>
 
 "You say you were surprised by my letter and shocked by my first. You seem to truly love your country (<em>patrie</em>) [i.e., France] and wish to suffer for her. I was like you, my dear cousin, but that has passed. Yes, one must love one’s country when one is recognized as her child and as a citizen. But tell me this—since when, in your country, have you been considered a French citizen?
 
@@ -951,13 +951,11 @@ A few days later, I watched as a boat departed carrying my cousin, his friend, a
 
 One fine day, they came asking whether there was a young man willing to embark as the domestic servant of a captain about to take command of the <em>Centurion</em>, a vessel armed with fifty [cannon] and fitted out as a transport bound for Halifax [Nova Scotia], where it would remain for several months before returning to England. I stepped forward.
 
-[p. 171] [<em>Much later, while in the employ of the British captain, the author recalls being received as the guest of a white British family in England</em>]
+<em>Much later, while in the employ of the British captain, the author recalls being received as the guest of a white British family in England</em>
 
 A messenger came on behalf of Monsieur and Madame to ask whether I would come down for breakfast or if he should bring it to my room. For a moment, I truly believed they were about to proclaim me King of England, in my furnished bedroom, where I had already been granted the title of <em>gentleman</em>.[^81] [Back home on Isle de France,] the cart drivers and wagoners whom I paid to transport my goods were also addressed as “Sirs,” whereas I, an honest property owner of unquestionable integrity, was always referred to as <em>le nommé</em> (the so-called).[^82] But thank God, my turn has come at last, and that is how all things change; for in this other hemisphere, I become a Gentleman and take my place among the “Sirs.”
 
-[<em>The first mention of the Haitian Revolution in Tabardin’s memoir appears in a curious case of mistaken identity</em>]
-
-[pp. 185-193]
+<em>The first mention of the Haitian Revolution in Tabardin’s memoir appears in a curious case of mistaken identity</em>
 
 <strong>Singular Meeting With a Young Man Who Wanted to Adopt Me As His Brother Despite My Wishes.</strong>
 
@@ -1214,7 +1212,7 @@ For instance, consider the history of Saint Domingue, the most prosperous colony
 
 [^78]: Report of Mayor of St. Pierre, Ganglier, to the Assemblée Primaire of that Canton, 26 March 1793, on rumors of a potential slave revolt conveyed to Cit. Olivier Payet. 26 March 1793. ADR L341 (St. Pierre Assemblée Primaire).
 
-[^79]: These extracts from a translation of the manuscript. Jean-Baptiste Tabardin, <em>La vie ou les aventures de J.B. Tabardin dans ses voyages: imaginé et commencé le premier janvier 1805 dans la Raveline de Bombay</em>, ed. Norbert Benoît (Port Louis, Mauritius: Editions Vizavi, 1993).
+[^79]: Jean-Baptiste Tabardin, “La vie ou les aventures de J.B. Tabardin dans ses voyages,” manuscrit, 1805-ca. 1814, Carnegie Library (Curepipe, Mauritius), 920 TAB/D10710
 
 [^80]: A July 2, 1802 decree barred “blacks, mulattos, and other people of color” from entering metropolitan France without authorization, reprising a similar ban from 1777. Furthermore, an 1803 ministerial decree under Napoleon banned marriages between blacks and whites in France. See Jennifer Heuer, “The One-Drop Rule in Reverse? Interracial Marriages in Napoleonic and Restoration France,” <em>Law and History Review</em> 27, no. 3 (2009): 515–48. Note that the Stanislas’s letter does not complain of Napoleon’s restoration of slavery to the French empire.
 
