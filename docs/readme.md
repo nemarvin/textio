@@ -1,4 +1,23 @@
+<style>
+html {
+  background-color: #2f2f2f;
+}
 
+body {
+  width: calc(100% - 80px);
+  max-width: 1200px;
+  min-height: 100vh;
+  margin: 0 auto;
+  background-color: #ffffff;
+  box-sizing: border-box;
+}
+
+@media (max-width: 700px) {
+  body {
+    width: 100%;
+  }
+}
+</style>
 
 <strong>Slavery, Resistance, & the Politics of Race in France’s Indian Ocean Colonies During the Age of Revolution</strong>
 
