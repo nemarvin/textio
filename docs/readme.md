@@ -1,20 +1,14 @@
 <style>
-html {
-  background-color: #2f2f2f;
-}
-
 body {
-  width: calc(100% - 80px);
-  max-width: 1200px;
-  min-height: 100vh;
-  margin: 0 auto;
-  background-color: #ffffff;
+  border-left: 40px solid #2f2f2f;
+  border-right: 40px solid #2f2f2f;
   box-sizing: border-box;
 }
 
 @media (max-width: 700px) {
   body {
-    width: 100%;
+    border-left: none;
+    border-right: none;
   }
 }
 </style>
