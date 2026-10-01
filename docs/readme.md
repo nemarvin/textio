@@ -1,32 +1,328 @@
 <style>
-html {
-  background-color: #2f2f2f;
+:root {
+  --page-bg: #ffffff;
+  --gutter-bg: #2f2f2f;
+  --text: #2d2926;
+  --muted: #6d655f;
+  --rule: #8a2f2f;
+  --soft-rule: #ddd6d0;
+  --link: #7b2929;
+  --link-hover: #4f1717;
+}
+
+html,
+body {
+  min-height: 100%;
+  background-color: var(--gutter-bg);
 }
 
 body {
-  max-width: 1200px;
+  margin: 0;
+  color: var(--text);
+}
+
+/* White book page with charcoal gutters extending to the browser edges. */
+.markdown-body {
+  width: 100%;
+  max-width: 1200px !important;
   min-height: 100vh;
-  margin: 0 auto;
-  background-color: #ffffff;
+  margin: 0 auto !important;
+  padding: 3rem 5rem 5rem !important;
   box-sizing: border-box;
+  background-color: var(--page-bg);
+  color: var(--text);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 18px;
+  line-height: 1.68;
+  box-shadow: 0 0 24px rgba(0, 0, 0, 0.18);
+}
+
+/* Keep prose at a comfortable book-like measure while allowing images to breathe. */
+.markdown-body > p,
+.markdown-body > ul,
+.markdown-body > ol,
+.markdown-body > blockquote,
+.markdown-body > h2,
+.markdown-body > h3,
+.markdown-body > pre,
+.markdown-body > table,
+.markdown-body > .footnotes {
+  max-width: 820px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.markdown-body p {
+  margin-top: 0;
+  margin-bottom: 1.15em;
+}
+
+/* GitHub Pages/Jekyll site title: "Freedom Deferred." */
+.markdown-body > h1:first-of-type {
+  max-width: 820px;
+  margin: 0 auto 0.4rem;
+  padding: 0;
+  border-bottom: 0 !important;
+  color: var(--text);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 2.75rem;
+  font-weight: 600;
+  line-height: 1.08;
+  letter-spacing: 0.045em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.markdown-body > h1:first-of-type a {
+  color: inherit !important;
+  text-decoration: none !important;
+}
+
+.book-title-block {
+  max-width: 820px;
+  margin: 0 auto 3.6rem;
+  padding-bottom: 0.1rem;
+  text-align: center;
+}
+
+.book-title-block::after {
+  content: "";
+  display: block;
+  width: 88px;
+  height: 3px;
+  margin: 2rem auto 0;
+  background: var(--rule);
+}
+
+.book-title-block .book-subtitle {
+  margin: 0.75rem auto 0.7rem;
+  font-size: 1.17rem;
+  line-height: 1.45;
+}
+
+.book-title-block .book-kicker {
+  margin: 0.35rem auto;
+  color: var(--muted);
+  font-size: 1.02rem;
+}
+
+.book-title-block .book-author {
+  margin: 0.95rem auto 0;
+  font-size: 1.02rem;
+  letter-spacing: 0.02em;
+}
+
+/* Section headings: restrained, book-like, with a short burgundy rule. */
+.markdown-body h2 {
+  margin-top: 4.25rem;
+  margin-bottom: 1.5rem;
+  padding: 0;
+  border-bottom: 0 !important;
+  color: var(--text);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+.markdown-body h2::after {
+  content: "";
+  display: block;
+  width: 72px;
+  height: 2px;
+  margin-top: 0.7rem;
+  background: var(--rule);
+}
+
+.markdown-body h3 {
+  margin-top: 3.4rem;
+  margin-bottom: 1.15rem;
+  padding-top: 1.15rem;
+  border-top: 1px solid var(--soft-rule);
+  color: var(--text);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 1.32;
+}
+
+/* Contents page. */
+#contents + h2 {
+  margin-top: 0;
+}
+
+#contents + h2 + ul {
+  max-width: 860px;
+  padding-left: 1.35rem;
+  line-height: 1.52;
+}
+
+#contents + h2 + ul > li {
+  margin: 0.45rem 0;
+}
+
+#contents + h2 + ul ul {
+  margin-top: 0.3rem;
+  margin-bottom: 0.55rem;
+}
+
+/* Links use a muted historical-book accent instead of GitHub blue. */
+.markdown-body a {
+  color: var(--link);
+  text-decoration-color: rgba(123, 41, 41, 0.35);
+  text-underline-offset: 0.12em;
+}
+
+.markdown-body a:hover,
+.markdown-body a:focus {
+  color: var(--link-hover);
+  text-decoration-color: currentColor;
+}
+
+.markdown-body a[href="#contents"] {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 0.76rem;
+  font-weight: 600;
+  letter-spacing: 0.055em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+/* Figures can be wider than the prose column. */
+.markdown-body > figure {
+  max-width: 980px;
+  margin: 2.6rem auto 3rem;
+}
+
+.markdown-body figure img,
+.markdown-body > p > img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.markdown-body figcaption {
+  max-width: 850px;
+  margin: 0.85rem auto 0;
+  color: var(--muted);
+  font-size: 0.84rem;
+  font-style: italic;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.markdown-body figure iframe {
+  display: block;
+  width: 100%;
+  max-width: 900px;
+  height: 600px;
+  margin: 0 auto;
+  border: 1px solid var(--soft-rule);
+  background: #f6f3f0;
+}
+
+/* Quotations and notes. */
+.markdown-body blockquote {
+  padding: 0.35rem 1.2rem;
+  border-left: 3px solid var(--rule);
+  color: #4f4945;
+  background: #faf8f6;
+}
+
+.markdown-body blockquote > :last-child {
+  margin-bottom: 0;
+}
+
+.markdown-body .footnotes {
+  margin-top: 4.5rem;
+  padding-top: 1.4rem;
+  border-top: 1px solid var(--soft-rule);
+  color: #554f4b;
+  font-size: 0.86rem;
+  line-height: 1.55;
+}
+
+.markdown-body sup {
+  font-size: 0.72em;
+}
+
+/* A little more air around the major sections without giant GitHub rules. */
+.markdown-body hr {
+  max-width: 820px;
+  height: 1px;
+  margin: 3rem auto;
+  border: 0;
+  background: var(--soft-rule);
+}
+
+@media (max-width: 900px) {
+  .markdown-body {
+    padding: 2.5rem 3rem 4rem !important;
+  }
 }
 
 @media (max-width: 700px) {
-  html {
-    background-color: #ffffff;
+  html,
+  body {
+    background-color: var(--page-bg);
   }
 
+  .markdown-body {
+    max-width: 100% !important;
+    padding: 1.8rem 1.25rem 3.5rem !important;
+    font-size: 17px;
+    box-shadow: none;
+  }
+
+  .markdown-body > h1:first-of-type {
+    font-size: 2.1rem;
+    letter-spacing: 0.03em;
+  }
+
+  .book-title-block {
+    margin-bottom: 3rem;
+  }
+
+  .markdown-body h2 {
+    margin-top: 3.4rem;
+    font-size: 1.55rem;
+  }
+
+  .markdown-body h3 {
+    margin-top: 2.8rem;
+    font-size: 1.27rem;
+  }
+
+  .markdown-body figure iframe {
+    height: 68vw;
+    min-height: 340px;
+  }
+}
+
+@media print {
+  html,
   body {
-    max-width: 100%;
+    background: #ffffff;
+  }
+
+  .markdown-body {
+    max-width: none !important;
+    padding: 0 !important;
+    box-shadow: none;
+  }
+
+  .markdown-body a {
+    color: inherit;
   }
 }
 </style>
 
-<strong>Slavery, Resistance, & the Politics of Race in France’s Indian Ocean Colonies During the Age of Revolution</strong>
-
-<em>A Documentary Reader</em>
-
-Nathan E. Marvin
+<div class="book-title-block">
+  <p class="book-subtitle"><strong>Slavery, Resistance, & the Politics of Race in France’s Indian Ocean Colonies During the Age of Revolution</strong></p>
+  <p class="book-kicker"><em>A Documentary Reader</em></p>
+  <p class="book-author">Nathan E. Marvin</p>
+</div>
 
 <a id="contents"></a>
 ## Contents
@@ -77,7 +373,7 @@ In presenting a diverse range of voices from the French Indian Ocean world, this
 
 
 <figure>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/c/ce/French_Empire_17th_century-20th_century.png" alt="Map depicting territories occupied by France from the 17th to 20th centuries, created by Kayac1971 (2012), Wikimedia Commons.">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/c/ce/French_Empire_17th_century-20th_century.png" alt="Map depicting territories occupied by France from the 17th to 20th centuries, created by Kayac1971 (2012), Wikimedia Commons." loading="lazy" decoding="async">
     <figcaption>Map depicting territories occupied by France from the 17th to 20th centuries. Wikimedia Commons.</figcaption>
 </figure>
 
@@ -110,13 +406,11 @@ The Mascarene archipelago was the epicenter of French settler colonization and p
 <figure>
   <img
     src="https://cdn.essentiels.bnf.fr/media/images/cache/cache/rc/hyMdMMKw/uploads/media/image/20201205003256000000_por_283.jpg"
-    alt="Map of the main French shipping routes in the Indian Ocean, drawn from memory by Mahé de la Bourdonnais while imprisoned in the Bastille."
-  >
+    alt="Map of the main French shipping routes in the Indian Ocean, drawn from memory by Mahé de la Bourdonnais while imprisoned in the Bastille." loading="lazy" decoding="async">
   <figcaption>
     Map of French shipping routes in the Indian Ocean, drawn from memory by Mahé de la Bourdonnais while imprisoned in the Bastille (c. 1750). Made with soot and coffee grounds on a handkerchief. Image source: Bibliothèque nationale de France.
   </figcaption>
 </figure>
-<br><br>
 
 
 Located at the nexus of both the Atlantic and Indian-Ocean spheres of France’s empire, the societies of Bourbon Island and Isle de France shared many of the defining characteristics of Saint-Domingue (colonial Haiti), Martinique, or even Louisiana (technically under Spanish rule since 1763). For example, the Indian Ocean colonies, like their counterparts in the greater Caribbean, featured majority-slave populations and an elite of free persons divided nominally into white and nonwhite categories. As in the Antilles, these islands’ populations were officially divided into three categories: white, black (i.e. enslaved) and <em>libres</em> (free nonwhites). But such labels can be deceptive. Race generally followed different logics in the Indian Ocean than in the Atlantic world. Generally, these categories masked a much greater ethnic diversity than an “Atlantic” reading of terms would suggest. For example, many South Asians were included within the category “black,” which functioned as a synonym to “slave,” and a large portion of those understood to be “white” had non-European ancestry and might be considered to be “of color” in other areas of France’s empire (more on that below).
@@ -141,9 +435,9 @@ Apologists of the colonies’ leadership pointed to the islands’ relative stab
 
 
 <figure>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/d/dd/Magasins_de_la_Compagnie_des_Indes_%C3%A0_Pondich%C3%A9ry.jpg" alt="Les magasins de la Compagnie à Pondichéry [The warehouses of the East India Company, Pondicherry], 18th c. Image Source: Musée de la Compagnie des Indes, Lorient, France.">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/d/dd/Magasins_de_la_Compagnie_des_Indes_%C3%A0_Pondich%C3%A9ry.jpg" alt="Les magasins de la Compagnie à Pondichéry [The warehouses of the East India Company, Pondicherry], 18th c. Image Source: Musée de la Compagnie des Indes, Lorient, France." loading="lazy" decoding="async">
     <figcaption>Warehouses of the East India Company, Pondicherry, 18th century. Musée de la Compagnie des Indes, Lorient, France.</figcaption>
-</figure><br><br>
+</figure>
 
 <em>Although scholarship on European slave trading has privileged its Atlantic over its Indian Ocean theater, between 1600 and 1860, European slave ships transported half a million captives from the Indian Ocean into the Atlantic and another half-million to points within the Indian Ocean itself. France’s Indian Ocean commerce in particular was fully entangled with its Atlantic slave trade. Textiles from South Asia and cowries from the Maldives, deposited by French ships at the port of Lorient were exchanged for slaves in Africa's Atlantic ports. Moreover, as much as one-fifth of all French slaving operations occurred within the Indian Ocean itself, largely to satisfy the expanding demand for labor in the Mascarenes. Some of the first slaves sent to the French Indian Ocean islands (the Mascarenes) were South Asian in origin, and throughout most of the eighteenth and early nineteenth centuries, Indians represented some 10% of the enslaved populations of the islands. Many were domestic servants, and most were women or children. Often, they had been kidnapped or sold into debt peonage by destitute family members, especially during the frequent famines that struck the countryside around France’s</em> comptoirs (<em>coastal trading posts) in India. Chief among these was Pondicherry, in the Tamil-speaking southeastern coastal region of India. Access to the enclave had been granted to France by a vassal of the Mughal Empire in 1670 and by the eighteenth century had become a booming textiles manufacturing center, where, by 1740, up to 120,000 Tamil artisans labored for the French, weaving and dying valuable cloth for resale back in Europe, throughout the Indian Ocean world, and along the coasts of Africa, where it was purchased by local elites. Pondichéry and the other</em> comptoirs <em>remained part of France until 1962, when they were officially absorbed by India as the state of Puducherry.</em>[^15]
 
@@ -250,14 +544,17 @@ God, having created Adam from the earth, sent him into a sleep during which he p
 <em>For the French, tales like these helped crystallize the idea that local Antanosy society was divided into two distinct caste systems, the first, superior, called “</em>Fotsy<em>” (the chromatic term for white) and a second, inferior, called “</em>Mainty<em>” (black). These divisions were much more complicated than the French understood them to be; nevertheless, they reproduced this white/black binary in their writings about Madagascar. Elements of the social structure of Madagascar may even have been carried eastward to the Mascarene Islands, which were settled in part by individuals from the Fort-Dauphin colony in the seventeenth century.</em>
 
 
-![“Borobudur ship” bas-relief sculpture, Java, Indonesia, depicting the kinds of wooden outrigger sailing ships that likely carried early migrants from Southeast Asia to Madagascar. Source: Haddon, A.C. (1920). The Outriggers of Indonesian Canoes. Image Source: Royal Anthropological Institute of Great Britain and Ireland, London.](https://upload.wikimedia.org/wikipedia/commons/3/30/Borobudur_ship.JPG)
+<figure>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/3/30/Borobudur_ship.JPG" alt="Borobudur ship bas-relief sculpture in Java, Indonesia, showing a wooden outrigger sailing ship." loading="lazy" decoding="async">
+  <figcaption>“Borobudur ship” bas-relief sculpture, Java, Indonesia, depicting a wooden outrigger sailing ship. Photograph by Michael J. Lowe, 2005. Wikimedia Commons, CC BY-SA 2.5.</figcaption>
+</figure>
 
 <em>Missionary sources, too, reveal that French colonists grouped the people they met in the Anosy region broadly as “whites” and “blacks,” not merely because of their own perception of differences in skin color, but because that was how the racial system of the region was explained to them. In a 1650 report to the superior of his Paris-based congregation, one missionary shared a revealing conversation between the priests and one of the local</em> ombiasy, <em>itinerant holy men who acted as both healers and diviners:</em>
 
 The most learned of the <em>ombiasy</em> of this country, fifty years old, was here with the others. We asked him by interpreter how he served God. He told us that <em>Ramofamade</em>, that is to say Muhammad, was their prophet, and Moses ours; that we did well to follow the law of Moses and they, that of Muhammad. He told us the story of our first father Adam, much as it is in Genesis, except for one impertinent circumstance, namely that there was a river of milk, another of honey, a third of wine, and that the subject that angered God was the stench produced after Adam and Eve had purged their stomachs in the garden (<em>avaient purgé leur ventre</em>). He said moreover that among the children of Adam, some were white and great lords, from whom the French and the Whites of this country are descended, the others blacks, and slaves, from whom the <em>Nègres</em>[^24] drew their origin. We told him about Jesus Christ, the Incarnate Son of God. He replied that their books made mention of a prophet named <em>Raïssa</em>, who had come to Earth directly from God, without being born among men, and that he was greater than Muhammad, who succeeded him. Having told him that it was Our Lord Jesus Christ, Son of God, whom we worship, he replied that God had no son and that he was only one, that as for the rest, they hoped, like us, to go to heaven by keeping their rituals.[^25]
 
 <figure>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/8/8c/Isle_de_Madagascar%2C_autrement_dicte_isle_St_Laurens%2C_par_le_Sr_de_Flacourt%2C_1656._A_pr%C3%A9sent_nomm%C3%A9e_isle_Dauphine_-_btv1b550002299.jpg" alt="Illustration from Etienne de Flacourt’s Histoire de Madagascar (1656), republished in 1666.">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/8/8c/Isle_de_Madagascar%2C_autrement_dicte_isle_St_Laurens%2C_par_le_Sr_de_Flacourt%2C_1656._A_pr%C3%A9sent_nomm%C3%A9e_isle_Dauphine_-_btv1b550002299.jpg" alt="Illustration from Etienne de Flacourt’s Histoire de Madagascar (1656), republished in 1666." loading="lazy" decoding="async">
     <figcaption>Plate from a 1666 edition of Etienne de Flacourt’s Histoire de Madagascar. Captions label figures with specific ethnic markers and the terms “black” and “white.” Wikimedia Commons.</figcaption>
 </figure>
 
@@ -305,10 +602,10 @@ I am, with Respect, Monseigneur, your most humble and very obedient servant
 Entrecasteaux
 
 
-![This map depicts the birthplaces (with modern country borders shown) of the grandparents of adults registered as white on the 1711 census. 72% of Creole (island-born) whites had at least one non-European grandparent (South Asian or Malagasy).](Images/map_1.png)
-
-
-<em>Author’s Map. Cossigny’s estimate that as many as three-quarters of Bourbon Island’s approximately 8,000 whites had non-European ancestors was not an exaggeration. It was an open secret in the Mascarenes that most white creole families from Bourbon could trace their lineage back to a foremother who had migrated from Madagascar or India shortly after the island first began to be settled in the seventeenth century. This map depicts the birthplaces (with modern country borders shown) of the grandparents of adults registered as white on the 1711 census. 72% of Creole (island-born) whites had at least one non-European grandparent (South Asian or Malagasy). (Sources: “Recensement de 1711,” Archives Nationales d'Outre-Mer, FM DPPC G1/477; Ricquebourg, Lucien Jacques Camille.</em> Dictionnaire généalogique des familles de l’île Bourbon (La Réunion) 1665-1810. <em>3 vols. Mayenne: Imprimerie de la Manutention, 1983.</em>
+<figure>
+  <img src="Images/map_1.png" alt="Map showing the birthplaces of the grandparents of adults registered as white on Bourbon Island’s 1711 census; 72% of island-born whites had at least one non-European grandparent." loading="lazy" decoding="async">
+  <figcaption>Author’s Map. Cossigny’s estimate that as many as three-quarters of Bourbon Island’s approximately 8,000 whites had non-European ancestors was not an exaggeration. It was an open secret in the Mascarenes that most white creole families from Bourbon could trace their lineage back to a foremother who had migrated from Madagascar or India shortly after the island first began to be settled in the seventeenth century. This map depicts the birthplaces (with modern country borders shown) of the grandparents of adults registered as white on the 1711 census. 72% of Creole (island-born) whites had at least one non-European grandparent (South Asian or Malagasy). (Sources: “Recensement de 1711,” Archives Nationales d'Outre-Mer, FM DPPC G1/477; Ricquebourg, Lucien Jacques Camille. <em>Dictionnaire généalogique des familles de l’île Bourbon (La Réunion) 1665-1810</em>. 3 vols. Mayenne: Imprimerie de la Manutention, 1983.)</figcaption>
+</figure>
 
 [↑ Back to Contents](#contents)
 
@@ -318,7 +615,7 @@ Entrecasteaux
 ## The French Revolution and the Politics of Race
 
 <figure>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Henri_Paulin_Panon-Desbassayns.jpg" alt="Portrait of Henri Paulin Panon-Desbassayns. 18th century. Musée historique de Villèle. Image Source: Wikimedia Commons.">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Henri_Paulin_Panon-Desbassayns.jpg" alt="Portrait of Henri Paulin Panon-Desbassayns. 18th century. Musée historique de Villèle. Image Source: Wikimedia Commons." loading="lazy" decoding="async">
     <figcaption>Portrait of Henri Paulin Panon-Desbassayns. 18th century. Musée historique de Villèle. Image Source: Wikimedia Commons.</figcaption>
 </figure>
 
@@ -449,10 +746,10 @@ Article 5. The colonial assembly did not think it necessary to allow the free or
 <a id="speech-of-pierre-antoine-monneron-to-the-national-assembly-paris-may-13-1791"></a>
 ### Speech of Pierre Antoine Monneron to the National Assembly, Paris, May 13, 1791[^39]
 
-<em>Engraving: “The Three Brothers Monneron, députés to the National Assembly.” From left to right: Charles-Claude-Ange, 1735-1799, representing the sénéchaussée of Annonay, in southeastern France; Jean Louis, 1742-1805, representing the East Indies; Pierre-Antoine, 1747-1801, representing the colony of Isle de France (Mauritius).</em>
+<em>Engraving: “The Three Brothers Monneron, députés to the National Assembly.” From left to right: Pierre-Antoine, 1747-1801, representing the colony of Isle de France (Mauritius); Charles-Claude-Ange, 1735-1799, representing the sénéchaussée of Annonay, in southeastern France; Jean Louis, 1742-1805, representing the East Indies.</em>
 
 <figure>
-   <img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Fr%C3%A8res_Monneron.jpg" alt="Engraving of the Three Brothers Monneron, députés to the National Assembly. From left to right: Charles-Claude-Ange, Jean Louis, and Pierre-Antoine. Published in Paris between 1789 and 1791.">
+   <img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Fr%C3%A8res_Monneron.jpg" alt="Engraving of the Three Brothers Monneron, députés to the National Assembly. From left to right: Pierre-Antoine, Charles-Claude-Ange, and Jean Louis. Published in Paris between 1789 and 1791." loading="lazy" decoding="async">
    <figcaption>Engraving of the Three Brothers Monneron, députés to the National Assembly. Translated, the caption reads: "Liberty Under the Law." Published in Paris between 1789 and 1791. Image Source: Bibliothèque nationale de France (BnF).</figcaption>
 </figure>
 
@@ -774,10 +1071,10 @@ What, instead, were the reckless innovators preparing? The terrible lesson of th
 <em>In the winter of 1902-3, a librarian at the Boston Athenaeum was investigating a leak in the attic when he discovered a long-lost manuscript. It was a memoir, written by François Le Forestier (1749-1819). Born in France, he had traveled to Isle de France (Mauritius) in 1780, where he served as a barrister and then as a notary. He was elected a “substitute deputy” for his parish during the era he referred to as “that cursed Revolution” and in 1803, he became a tax collector under the military governorship Napoleon imposed on the colonies. Accused of mismanaging funds (he was discovered to owe 109,435 francs!). Le Forestier fled to New England where he presented himself as a French tutor. Like many on Isle de France, Le Forestier had strong ties to the region: he had sent one of his sons to school at Phillips Andover Academy, in Massachusetts, in 1797, and a Salem merchant weathered an illness on his sugar plantation during a business trip in the 1780s. From 1808-1812 Le Forestier lived and taught in Massachusetts (including what is today the state of Maine). When Mauritius passed into British hands, Le Forestier thought himself safe from arrest, so in 1812, he returned aboard the</em> Talbot <em>out of Salem. During the voyage he wrote an autobiography addressed to “Mademoiselle Cobb,” the fifteen-year-old Mary Cobb of Portland, Maine, one of his favorite pupils. Written in French, it contains an account of his early life in France and his time on Mauritius, as well as his own harrowing escape from the island, in which he was helped by his own slaves and some free black residents. He also describes the events surrounding the arrival and ouster of Baco and Burnel in 1796, presented in this extract. Note that Le Forestier’s suggestion that the majority of the troops who had arrived with the agents were also deported is false: most of them, as well as the naval squadron and its commanders, remained on the island. His account makes it quite clear that, despite their later claims, the ouster of the two French civil commissioners was deliberate and planned and carried out by members of the Colonial Assembly and local troops .The idea that several dozen rioters could have “forced” 1,500 troops to embark suggests some level of complicity on the part of their commanders–and that those involved in the riot may have been far more numerous than this account suggests.</em>
 
 
-![Page 19 from the Journal of François Le Forestier, describing the coup that expelled Baco and Burnel.](Images/fpu_Image_9.png)
-
-
-<em>Page 19 from the Journal of François Le Forestier, describing the coup that expelled Baco and Burnel. Author’s photograph.</em>
+<figure>
+  <img src="Images/fpu_Image_9.png" alt="Page 19 from the journal of François Le Forestier, describing the coup that expelled Baco and Burnel." loading="lazy" decoding="async">
+  <figcaption>Page 19 from the Journal of François Le Forestier, describing the coup that expelled Baco and Burnel. Author’s photograph.</figcaption>
+</figure>
 
 “[In 1796] the Directory of France had sent fifteen hundred troops, and two representatives of the People, named Bâco and Burnel[.] The latter was known to have lived on Isle de France before, where he exercised the professions of lawyer and journalist; he had made himself known as a very bad subject. So they distrusted these gentlemen, and with great reason, because they wanted to put the decree granting liberty to the blacks into execution[.] Had that happened, the whites would have all perished[,] as in Saint-Domingue. The colonial assembly sent word out to the countryside at once, and everyone [i.e. white planters from the country] arrived [in Port Louis] during the night, armed with all kinds of weapons[.] They [the members of the Colonial Assembly] had also made the arrangements for three ships to send these gentlemen back. Indeed, at half-past eleven in the morning, the people and the troops assembled, the fifteen hundred men were forced to embark, as well as the two scoundrels (<em>coquins</em>). An enemy of the revolution fired on Burnel as he began to harangue the people, but his pistol failed to discharge. And so they departed, and calm was restored immediately. It must be noted that Isle de France demonstrated in these circumstances an energy and a character that the other colonies would have been good to replicate should such scoundrels be sent to them as well.”
 
@@ -909,7 +1206,7 @@ We could not do better than to leave things in this state.
 <em>The</em> Memorial of Saint Helena <em>(in French,</em> Le Mémorial de Sainte-Hélène), <em>was written by French count Emmanuel-Auguste-Dieudonné Las Cases. It was based on interviews with Napoleon Bonaparte, conducted during his exile on the British island of Saint Helena, in the South Atlantic along a trade route to the Indian Ocean. Napoleon had been forcibly imprisoned there after his final defeat by British and Coalition forces at the Battle of Waterloo (1815). The work was immensely popular when first published—in French and in English. This extract comes from an English translation and includes Napoleon’s reflections on his army’s defeat in Haiti and on the Isle de France.</em>
 
 <figure>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/5/50/Napoleon_Las_Casas.jpg" alt="Napoleon dictates to Count Las Cases on Saint Helena, c. 1855, by Hippolyte Paul Delaroche.">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/5/50/Napoleon_Las_Casas.jpg" alt="Napoleon dictates to Count Las Cases on Saint Helena, c. 1855, by Hippolyte Paul Delaroche." loading="lazy" decoding="async">
     <figcaption>Napoleon dictates to Count Las Cases. “Napoleon at St Helena,” oil painting, c. 1855, by Hippolyte Paul Delaroche. Royal Collection Trust.</figcaption>
 </figure>
 
@@ -1014,7 +1311,7 @@ Go find me one of those black men from the depths of <em>Négritie</em> [a histo
 
 
 <figure>
-    <img src="https://collections.rmg.co.uk/media/566/855/l4294_001.jpg" alt="Medal commemorating the British capture of Isle de France and surrounding islands, highlighting the role of Sepoys, circa 1811. National Maritime Museum, Greenwich, London.">
+    <img src="https://collections.rmg.co.uk/media/566/855/l4294_001.jpg" alt="Medal commemorating the British capture of Isle de France and surrounding islands, highlighting the role of Sepoys, circa 1811. National Maritime Museum, Greenwich, London." loading="lazy" decoding="async">
     <figcaption>Medal commemorating the British capture of Isle de France and surrounding islands, highlighting the role of Sepoys (Indian soldiers who fought for the British), circa 1811. National Maritime Museum, Greenwich, London.</figcaption>
 </figure>
 
@@ -1028,7 +1325,7 @@ Go find me one of those black men from the depths of <em>Négritie</em> [a histo
 
 
 <figure>
-    <img src="https://images.nypl.org/index.php?id=58714345&t=w&download=1&suffix=38bb4b80-afbf-013b-36f1-0242ac110002.001" alt="Portrait of Jean-Baptiste Lislet-Geoffroy by Albert Alexander Smith, 1930s. Watercolor. Schomburg Center for Research in Black Culture, New York Public Library.">
+    <img src="https://images.nypl.org/index.php?id=58714345&t=w&download=1&suffix=38bb4b80-afbf-013b-36f1-0242ac110002.001" alt="Portrait of Jean-Baptiste Lislet-Geoffroy by Albert Alexander Smith, 1930s. Watercolor. Schomburg Center for Research in Black Culture, New York Public Library." loading="lazy" decoding="async">
     <figcaption>Albert Alexander Smith, portrait of Jean-Baptiste Lislet-Geoffroy, 1930s. Watercolor. Schomburg Center for Research in Black Culture, New York Public Library. See also the miniature restored in 1998 by Emmanuel Richon.</figcaption>
 </figure>
 
@@ -1038,7 +1335,7 @@ While I was there, with books and instruments at my disposal, I applied myself t
 
 
 <figure>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/2/23/Upton_Castle_at_Ile_de_France_1810.jpg" alt="View from the Deck of the Upton Castle Transport, of the British Army Landing at Isle de France, November 1810. National Maritime Museum, Greenwich.">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/2/23/Upton_Castle_at_Ile_de_France_1810.jpg" alt="View from the Deck of the Upton Castle Transport, of the British Army Landing at Isle de France, November 1810. National Maritime Museum, Greenwich." loading="lazy" decoding="async">
     <figcaption>View from the Deck of the Upton Castle Transport, of the British Army Landing at Isle de France, November 1810. Painted in 1814. National Maritime Museum, Greenwich, London.</figcaption>
 </figure>
 
@@ -1062,7 +1359,7 @@ An engraving was ordered made in England by the quartermaster general of the par
 
 
 <figure>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6c/Numa_Desjardins_Champ_de_Mars_Port_Louis_1880.jpg" alt="Numa Desjardins (1826–?). Champ de Mars, Port Louis, 1880. Oil on canvas, 60 x 98 cm. The diversity of the population in late-19th-century Mauritius is visible in the foreground.">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6c/Numa_Desjardins_Champ_de_Mars_Port_Louis_1880.jpg" alt="Numa Desjardins (1826–?). Champ de Mars, Port Louis, 1880. Oil on canvas, 60 x 98 cm. The diversity of the population in late-19th-century Mauritius is visible in the foreground." loading="lazy" decoding="async">
     <figcaption>Numa Desjardins. Champ de Mars, Port Louis, 1880. Oil on canvas, 60 x 98 cm. Düsseldorf Auction House.</figcaption>
 </figure>
 
