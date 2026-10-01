@@ -1919,7 +1919,7 @@ I said, ah, people have been talking about giving freedom to the blacks for a lo
 <em>A remarkable illustrated manuscript survives in the Carnegie Library on the island of Mauritius. It was written by a free man of color named Jean-Baptiste Tabardin, who spent much of his youth (like many in his milieu) aboard the privateering vessels that shipped out of Port-Louis (Mauritius) and preyed on British and other enemy vessels. These extracts of Tabardin’s memoir recall his imprisonment aboard a prison hulk in Portsmouth, England, following his capture by the British Navy. Tabardin eventually secured his release from prison by answering a call for recruits: he entered into British naval service as a captain’s butler. In the extract below, he describes a moment in which he hesitated before defecting to the British, concerned that he would be seen as unpatriotic or, worse, as a traitor to the French nation. He recalls a letter transmitted to him by a relative: Tabardin’s cousin and fellow prisoner-of-war, Stanislas Moutou.</em>
 
 <figure>
-  <img src="docs/Images/unnamed (4).jpg" 
+  <img src="Images/unnamed (4).jpg" 
        alt="Tabardin's illustration of the final position of the March 1806 naval engagement between the French Marengo and British warships."
        loading="lazy"
        decoding="async">
