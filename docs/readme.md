@@ -613,6 +613,251 @@ html[data-reader-theme="dark"] body {
     color: inherit;
   }
 }
+
+/* Persistent table of contents.
+   On very wide screens it lives in the left charcoal gutter.
+   On medium screens it becomes a slide-out drawer.
+   The ordinary in-page Contents remains available for mobile, printing, and no-JavaScript use. */
+.reader-toc-shell {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+.reader-toc-panel,
+.reader-toc-toggle,
+.reader-toc-close {
+  font-family: inherit;
+}
+
+.reader-toc-panel {
+  position: fixed;
+  z-index: 60;
+  color: #f4efea;
+  background: rgba(35, 34, 33, 0.97);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  box-sizing: border-box;
+}
+
+.reader-toc-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  margin-bottom: 0.7rem;
+  padding-bottom: 0.65rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.16);
+}
+
+.reader-toc-title {
+  font-size: 0.76rem;
+  font-weight: 800;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+}
+
+.reader-toc-close {
+  display: none;
+  width: 2rem;
+  height: 2rem;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: transparent;
+  color: #f4efea;
+  font-size: 1.35rem;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.reader-toc-close:hover,
+.reader-toc-close:focus-visible {
+  background: rgba(255, 255, 255, 0.10);
+}
+
+.reader-toc-nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.reader-toc-nav > ul > li {
+  margin: 0.2rem 0 0.55rem;
+}
+
+.reader-toc-nav ul ul {
+  margin: 0.25rem 0 0.45rem;
+  padding-left: 0.72rem;
+  border-left: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.reader-toc-nav li {
+  margin: 0.18rem 0;
+}
+
+.reader-toc-nav a {
+  display: block;
+  padding: 0.28rem 0.42rem;
+  border-left: 3px solid transparent;
+  border-radius: 0.25rem;
+  color: #ded8d2;
+  font-size: 0.81rem;
+  line-height: 1.32;
+  text-decoration: none;
+  transition: background-color 120ms ease, color 120ms ease, border-color 120ms ease;
+}
+
+.reader-toc-nav > ul > li > a {
+  color: #ffffff;
+  font-size: 0.84rem;
+  font-weight: 700;
+}
+
+.reader-toc-nav a:hover,
+.reader-toc-nav a:focus-visible {
+  background: rgba(255, 255, 255, 0.08);
+  color: #ffffff;
+  outline: none;
+}
+
+.reader-toc-nav a.is-current {
+  border-left-color: #cf7373;
+  background: rgba(207, 115, 115, 0.16);
+  color: #ffffff;
+}
+
+.reader-toc-nav a.is-current-parent {
+  color: #ffffff;
+}
+
+.reader-toc-toggle {
+  display: none;
+  position: fixed;
+  z-index: 59;
+  align-items: center;
+  gap: 0.42rem;
+  padding: 0.58rem 0.72rem 0.58rem 0.62rem;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-left: 0;
+  border-radius: 0 0.55rem 0.55rem 0;
+  background: #2f2f2f;
+  color: #ffffff;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.18);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.035em;
+  cursor: pointer;
+}
+
+.reader-toc-toggle-icon {
+  font-size: 1rem;
+  line-height: 1;
+}
+
+.reader-toc-toggle:hover,
+.reader-toc-toggle:focus-visible {
+  background: #3a3938;
+  outline: 2px solid var(--rule);
+  outline-offset: 2px;
+}
+
+.reader-toc-scrim {
+  display: none;
+}
+
+/* Wide desktop: place the full TOC entirely inside the left gutter. */
+@media (min-width: 1720px) {
+  .reader-toc-panel {
+    top: 1.4rem;
+    left: calc((100vw - 1200px) / 2 - 248px);
+    width: 228px;
+    max-height: calc(100vh - 2.8rem);
+    padding: 0.9rem 0.78rem 1rem;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    border-radius: 0.7rem;
+    scrollbar-width: thin;
+    scrollbar-color: rgba(255, 255, 255, 0.28) transparent;
+  }
+
+  .reader-toc-panel::-webkit-scrollbar {
+    width: 7px;
+  }
+
+  .reader-toc-panel::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.25);
+    border-radius: 999px;
+  }
+}
+
+/* Laptop/tablet: collapse the TOC into a left-edge drawer. */
+@media (min-width: 701px) and (max-width: 1719px) {
+  .reader-toc-toggle {
+    display: flex;
+    top: 5.25rem;
+    left: 0;
+  }
+
+  .reader-toc-panel {
+    top: 0;
+    left: 0;
+    width: min(360px, 86vw);
+    height: 100vh;
+    padding: 1.15rem 1rem 1.4rem;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    border-radius: 0 0.75rem 0.75rem 0;
+    transform: translateX(-105%);
+    transition: transform 180ms ease;
+  }
+
+  .reader-toc-close {
+    display: inline-grid;
+    place-items: center;
+  }
+
+  .reader-toc-scrim {
+    position: fixed;
+    inset: 0;
+    z-index: 58;
+    background: rgba(0, 0, 0, 0.35);
+  }
+
+  .reader-toc-shell.is-open .reader-toc-panel {
+    transform: translateX(0);
+    box-shadow: 10px 0 30px rgba(0, 0, 0, 0.28);
+  }
+
+  .reader-toc-shell.is-open .reader-toc-scrim {
+    display: block;
+  }
+
+  .reader-toc-shell.is-open .reader-toc-toggle {
+    visibility: hidden;
+  }
+}
+
+/* Phones use the normal in-document Contents section. */
+@media (max-width: 700px) {
+  .reader-toc-shell {
+    display: none !important;
+  }
+}
+
+html[data-reader-theme="paper"] .reader-toc-panel,
+html[data-reader-theme="paper"] .reader-toc-toggle {
+  background: #37332f;
+}
+
+html[data-reader-theme="dark"] .reader-toc-panel,
+html[data-reader-theme="dark"] .reader-toc-toggle {
+  background: #151515;
+}
+
+@media print {
+  .reader-toc-shell {
+    display: none !important;
+  }
+}
+
 </style>
 
 <div class="book-title-block">
@@ -677,6 +922,22 @@ html[data-reader-theme="dark"] body {
       <p class="sr-only" id="reader-settings-status" aria-live="polite"></p>
     </div>
   </details>
+</div>
+
+
+<div class="reader-toc-shell" id="reader-toc-shell">
+  <button type="button" class="reader-toc-toggle" id="reader-toc-toggle" aria-controls="reader-toc-panel" aria-expanded="false">
+    <span class="reader-toc-toggle-icon" aria-hidden="true">☰</span>
+    <span>Contents</span>
+  </button>
+  <aside class="reader-toc-panel" id="reader-toc-panel" aria-label="Contents">
+    <div class="reader-toc-header">
+      <span class="reader-toc-title">Contents</span>
+      <button type="button" class="reader-toc-close" id="reader-toc-close" aria-label="Close contents">×</button>
+    </div>
+    <nav class="reader-toc-nav" id="reader-toc-nav" aria-label="Table of contents"></nav>
+  </aside>
+  <div class="reader-toc-scrim" id="reader-toc-scrim" aria-hidden="true"></div>
 </div>
 
 <a id="contents"></a>
@@ -2034,5 +2295,156 @@ For instance, consider the history of Saint Domingue, the most prosperous colony
       settingsBox.open = false;
     }
   });
+})();
+</script>
+
+<script>
+(function () {
+  var shell = document.getElementById('reader-toc-shell');
+  var panel = document.getElementById('reader-toc-panel');
+  var nav = document.getElementById('reader-toc-nav');
+  var toggle = document.getElementById('reader-toc-toggle');
+  var closeButton = document.getElementById('reader-toc-close');
+  var scrim = document.getElementById('reader-toc-scrim');
+  var contentsAnchor = document.getElementById('contents');
+
+  if (!shell || !panel || !nav || !toggle || !contentsAnchor) return;
+
+  /* Reuse the existing Contents list so there is only one TOC to maintain. */
+  var node = contentsAnchor.nextElementSibling;
+  var sourceList = null;
+
+  while (node) {
+    if (node.tagName === 'UL') {
+      sourceList = node;
+      break;
+    }
+    node = node.nextElementSibling;
+  }
+
+  if (!sourceList) {
+    shell.style.display = 'none';
+    return;
+  }
+
+  var clonedList = sourceList.cloneNode(true);
+  nav.appendChild(clonedList);
+
+  function openDrawer() {
+    shell.classList.add('is-open');
+    toggle.setAttribute('aria-expanded', 'true');
+    if (window.innerWidth < 1720) {
+      panel.setAttribute('tabindex', '-1');
+      panel.focus();
+    }
+  }
+
+  function closeDrawer(returnFocus) {
+    shell.classList.remove('is-open');
+    toggle.setAttribute('aria-expanded', 'false');
+    if (returnFocus) toggle.focus();
+  }
+
+  toggle.addEventListener('click', function () {
+    if (shell.classList.contains('is-open')) {
+      closeDrawer(false);
+    } else {
+      openDrawer();
+    }
+  });
+
+  if (closeButton) {
+    closeButton.addEventListener('click', function () {
+      closeDrawer(true);
+    });
+  }
+
+  if (scrim) {
+    scrim.addEventListener('click', function () {
+      closeDrawer(true);
+    });
+  }
+
+  document.addEventListener('keydown', function (event) {
+    if (event.key === 'Escape' && shell.classList.contains('is-open')) {
+      closeDrawer(true);
+    }
+  });
+
+  nav.addEventListener('click', function (event) {
+    var link = event.target.closest('a[href^="#"]');
+    if (!link) return;
+    if (window.innerWidth < 1720) closeDrawer(false);
+  });
+
+  window.addEventListener('resize', function () {
+    if (window.innerWidth >= 1720) {
+      closeDrawer(false);
+    }
+  });
+
+  /* Highlight the source/section currently nearest the top of the reading pane. */
+  var links = Array.prototype.slice.call(nav.querySelectorAll('a[href^="#"]'));
+  var ticking = false;
+
+  function updateCurrentLink() {
+    ticking = false;
+    var current = null;
+    var threshold = 150;
+
+    links.forEach(function (link) {
+      var hash = link.getAttribute('href');
+      if (!hash || hash.length < 2) return;
+
+      var id;
+      try {
+        id = decodeURIComponent(hash.slice(1));
+      } catch (error) {
+        id = hash.slice(1);
+      }
+
+      var target = document.getElementById(id);
+      if (target && target.getBoundingClientRect().top <= threshold) {
+        current = link;
+      }
+    });
+
+    links.forEach(function (link) {
+      link.classList.remove('is-current', 'is-current-parent');
+      link.removeAttribute('aria-current');
+    });
+
+    if (!current) return;
+
+    current.classList.add('is-current');
+    current.setAttribute('aria-current', 'location');
+
+    var parentList = current.closest('ul');
+    if (parentList && parentList.parentElement && parentList.parentElement.tagName === 'LI') {
+      var parentLink = parentList.parentElement.querySelector(':scope > a');
+      if (parentLink) parentLink.classList.add('is-current-parent');
+    }
+
+    /* Keep the highlighted item visible within a long sidebar. */
+    if (window.innerWidth >= 1720) {
+      var panelRect = panel.getBoundingClientRect();
+      var currentRect = current.getBoundingClientRect();
+
+      if (currentRect.top < panelRect.top + 52 || currentRect.bottom > panelRect.bottom - 18) {
+        current.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+      }
+    }
+  }
+
+  function requestCurrentUpdate() {
+    if (ticking) return;
+    ticking = true;
+    window.requestAnimationFrame(updateCurrentLink);
+  }
+
+  window.addEventListener('scroll', requestCurrentUpdate, { passive: true });
+  window.addEventListener('resize', requestCurrentUpdate);
+  window.addEventListener('load', requestCurrentUpdate);
+  requestCurrentUpdate();
 })();
 </script>
