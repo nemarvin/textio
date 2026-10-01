@@ -999,7 +999,7 @@ The Americans, who find anything concerning the French nation [of interest], adm
 The peaceful planter cultivates his fields while the thunder roars in vain above their heads and the waves break at their feet. It is equally gratifying for us to give you this just praise knowing that, among you, the hand of compassionate gentleness is lightening the burdens of servitude.
 
 
-![Detail from “Etat des Batimens entrés dans la dite Rade [St Denis] 1 to 30 June 1806, ANOM C3-25, item 111, showing American involvement in trade between Madagascar and the Mascarenes, including in enslaved captives.](docs/Images/unnamed (1).png)
+![Detail from “Etat des Batimens entrés dans la dite Rade [St Denis] 1 to 30 June 1806, ANOM C3-25, item 111, showing American involvement in trade between Madagascar and the Mascarenes, including in enslaved captives.](Images/unnamed (1).png)
 
 <em>Detail from “Etat des Batimens entrés dans la dite Rade [St Denis] 1 to 30 June 1806, ANOM C3-25, item 111, showing American involvement in trade between Madagascar and the Mascarenes, including in enslaved captives.</em>
 
@@ -1072,7 +1072,7 @@ What, instead, were the reckless innovators preparing? The terrible lesson of th
 
 
 <figure>
-  <img src="Images/fpu_Image_9.png" alt="Page 19 from the journal of François Le Forestier, describing the coup that expelled Baco and Burnel." loading="lazy" decoding="async">
+  <img src="Images/unnamed (3).jpg" alt="Page 19 from the journal of François Le Forestier, describing the coup that expelled Baco and Burnel." loading="lazy" decoding="async">
   <figcaption>Page 19 from the Journal of François Le Forestier, describing the coup that expelled Baco and Burnel. Author’s photograph.</figcaption>
 </figure>
 
