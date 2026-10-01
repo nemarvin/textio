@@ -603,7 +603,7 @@ Entrecasteaux
 
 
 <figure>
-  <img src="Images/map_1.png" alt="Map showing the birthplaces of the grandparents of adults registered as white on Bourbon Island’s 1711 census; 72% of island-born whites had at least one non-European grandparent." loading="lazy" decoding="async">
+  <img src="docs/Images/unnamed (2).png" alt="Map showing the birthplaces of the grandparents of adults registered as white on Bourbon Island’s 1711 census; 72% of island-born whites had at least one non-European grandparent." loading="lazy" decoding="async">
   <figcaption>Author’s Map. Cossigny’s estimate that as many as three-quarters of Bourbon Island’s approximately 8,000 whites had non-European ancestors was not an exaggeration. It was an open secret in the Mascarenes that most white creole families from Bourbon could trace their lineage back to a foremother who had migrated from Madagascar or India shortly after the island first began to be settled in the seventeenth century. This map depicts the birthplaces (with modern country borders shown) of the grandparents of adults registered as white on the 1711 census. 72% of Creole (island-born) whites had at least one non-European grandparent (South Asian or Malagasy). (Sources: “Recensement de 1711,” Archives Nationales d'Outre-Mer, FM DPPC G1/477; Ricquebourg, Lucien Jacques Camille. <em>Dictionnaire généalogique des familles de l’île Bourbon (La Réunion) 1665-1810</em>. 3 vols. Mayenne: Imprimerie de la Manutention, 1983.)</figcaption>
 </figure>
 
