@@ -1918,6 +1918,16 @@ I said, ah, people have been talking about giving freedom to the blacks for a lo
 
 <em>A remarkable illustrated manuscript survives in the Carnegie Library on the island of Mauritius. It was written by a free man of color named Jean-Baptiste Tabardin, who spent much of his youth (like many in his milieu) aboard the privateering vessels that shipped out of Port-Louis (Mauritius) and preyed on British and other enemy vessels. These extracts of Tabardin’s memoir recall his imprisonment aboard a prison hulk in Portsmouth, England, following his capture by the British Navy. Tabardin eventually secured his release from prison by answering a call for recruits: he entered into British naval service as a captain’s butler. In the extract below, he describes a moment in which he hesitated before defecting to the British, concerned that he would be seen as unpatriotic or, worse, as a traitor to the French nation. He recalls a letter transmitted to him by a relative: Tabardin’s cousin and fellow prisoner-of-war, Stanislas Moutou.</em>
 
+<figure>
+  <img src="Images/unnamed%20(4).jpg"
+       alt="Tabardin's illustration of the final position of the March 1806 naval engagement between the French Marengo and British warships."
+       loading="lazy"
+       decoding="async">
+  <figcaption>
+    One of several illustrations enclosed in Tabardin's memoir. Translated, his caption begins: "Continuation of the combat of the <em>Marengo</em>; 74-gun ship, fourth and final position when the <em>Marengo</em> lowered her flag at 10:40 am, along with the ship <em>London</em> (104 guns), part of Rear Admiral Warren's division at 25 degrees North latitude and 31 degrees West longitude." In Tabardin's key, A identifies the <em>Marengo</em>, on which he was serving, and 2 identifies the <em>London</em>; the two ships dominate the center of the illustration. Although a prisoner exchange in Bombay was meant to return Tabardin and others to Isle de France, French warships <em>Marengo</em> and <em>Belle-Poule</em> encountered the convoy and impressed the French prisoners into naval service. After the <em>Marengo</em> was captured in March 1806, the prisoners were distributed among the British ships and eventually transferred to prison hulks in Portsmouth, England. Author's photograph of the manuscript, Carnegie Library, Curepipe, Mauritius.
+  </figcaption>
+</figure>
+
 <strong> Second Letter of Stanislas Moutou: </strong>
 
 "You say you were surprised by my letter and shocked by my first. You seem to truly love your country (<em>patrie</em>) [i.e., France] and wish to suffer for her. I was like you, my dear cousin, but that has passed. Yes, one must love one’s country when one is recognized as her child and as a citizen. But tell me this—since when, in your country, have you been considered a French citizen?
