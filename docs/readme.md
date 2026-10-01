@@ -321,7 +321,7 @@ body {
 <div class="book-title-block">
   <p class="book-subtitle"><strong>Slavery, Resistance, & the Politics of Race in France’s Indian Ocean Colonies During the Age of Revolution</strong></p>
   <p class="book-kicker"><em>A Documentary Reader</em></p>
-  <p class="book-author">Nathan E. Marvin</p>
+  <p class="book-author">Nathan Elliot Marvin</p>
 </div>
 
 <a id="contents"></a>
