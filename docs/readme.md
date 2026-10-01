@@ -858,6 +858,16 @@ html[data-reader-theme="dark"] .reader-toc-toggle {
   }
 }
 
+
+/* On tablet and desktop, the persistent/drawer TOC replaces the duplicate in-page Contents.
+   Phones retain the normal in-document Contents as a fallback and mobile navigation. */
+@media (min-width: 701px) {
+  #contents + h2,
+  #contents + h2 + ul {
+    display: none;
+  }
+}
+
 </style>
 
 <div class="book-title-block">
