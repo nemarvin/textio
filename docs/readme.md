@@ -614,10 +614,11 @@ html[data-reader-theme="dark"] body {
   }
 }
 
+
 /* Persistent table of contents.
-   On very wide screens it lives in the left charcoal gutter.
-   On medium screens it becomes a slide-out drawer.
-   The ordinary in-page Contents remains available for mobile, printing, and no-JavaScript use. */
+   Wide desktop: fixed in the left charcoal gutter.
+   Laptop/tablet: left-edge drawer.
+   Phone: use the normal in-page Contents section. */
 .reader-toc-shell {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 }
@@ -631,10 +632,10 @@ html[data-reader-theme="dark"] body {
 .reader-toc-panel {
   position: fixed;
   z-index: 60;
+  box-sizing: border-box;
   color: #f4efea;
   background: rgba(35, 34, 33, 0.97);
   border: 1px solid rgba(255, 255, 255, 0.12);
-  box-sizing: border-box;
 }
 
 .reader-toc-header {
@@ -685,29 +686,30 @@ html[data-reader-theme="dark"] body {
 
 .reader-toc-nav ul ul {
   margin: 0.25rem 0 0.45rem;
-  padding-left: 0.72rem;
+  padding-left: 0.68rem;
   border-left: 1px solid rgba(255, 255, 255, 0.15);
 }
 
 .reader-toc-nav li {
-  margin: 0.18rem 0;
+  margin: 0.16rem 0;
 }
 
 .reader-toc-nav a {
   display: block;
-  padding: 0.28rem 0.42rem;
+  padding: 0.26rem 0.36rem;
   border-left: 3px solid transparent;
   border-radius: 0.25rem;
   color: #ded8d2;
-  font-size: 0.81rem;
-  line-height: 1.32;
+  font-size: 0.78rem;
+  line-height: 1.28;
   text-decoration: none;
+  overflow-wrap: anywhere;
   transition: background-color 120ms ease, color 120ms ease, border-color 120ms ease;
 }
 
 .reader-toc-nav > ul > li > a {
   color: #ffffff;
-  font-size: 0.84rem;
+  font-size: 0.81rem;
   font-weight: 700;
 }
 
@@ -763,14 +765,44 @@ html[data-reader-theme="dark"] body {
   display: none;
 }
 
-/* Wide desktop: place the full TOC entirely inside the left gutter. */
-@media (min-width: 1720px) {
+/* The in-page Contents is the single source used to populate the side TOC. */
+.in-page-contents {
+  max-width: var(--reader-measure);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.in-page-contents > ul {
+  padding-left: 1.35rem;
+  line-height: 1.52;
+}
+
+.in-page-contents > ul > li {
+  margin: 0.45rem 0;
+}
+
+.in-page-contents > ul ul {
+  margin-top: 0.3rem;
+  margin-bottom: 0.55rem;
+}
+
+/* Tablet and desktop use the persistent/drawer navigation instead. */
+@media (min-width: 701px) {
+  .in-page-contents {
+    display: none;
+  }
+}
+
+/* Wide desktop: fit the navigation into the actual left gutter. */
+@media (min-width: 1600px) {
   .reader-toc-panel {
-    top: 1.4rem;
-    left: calc((100vw - 1200px) / 2 - 248px);
-    width: 228px;
-    max-height: calc(100vh - 2.8rem);
-    padding: 0.9rem 0.78rem 1rem;
+    display: block;
+    top: 1.1rem;
+    left: 12px;
+    width: min(240px, calc((100vw - 1200px) / 2 - 24px));
+    min-width: 176px;
+    max-height: calc(100vh - 2.2rem);
+    padding: 0.85rem 0.7rem 1rem;
     overflow-y: auto;
     overscroll-behavior: contain;
     border-radius: 0.7rem;
@@ -789,7 +821,7 @@ html[data-reader-theme="dark"] body {
 }
 
 /* Laptop/tablet: collapse the TOC into a left-edge drawer. */
-@media (min-width: 701px) and (max-width: 1719px) {
+@media (min-width: 701px) and (max-width: 1599px) {
   .reader-toc-toggle {
     display: flex;
     top: 5.25rem;
@@ -856,15 +888,9 @@ html[data-reader-theme="dark"] .reader-toc-toggle {
   .reader-toc-shell {
     display: none !important;
   }
-}
 
-
-/* On tablet and desktop, the persistent/drawer TOC replaces the duplicate in-page Contents.
-   Phones retain the normal in-document Contents as a fallback and mobile navigation. */
-@media (min-width: 701px) {
-  #contents + h2,
-  #contents + h2 + ul {
-    display: none;
+  .in-page-contents {
+    display: block !important;
   }
 }
 
@@ -950,42 +976,55 @@ html[data-reader-theme="dark"] .reader-toc-toggle {
   <div class="reader-toc-scrim" id="reader-toc-scrim" aria-hidden="true"></div>
 </div>
 
-<a id="contents"></a>
-## Contents
-
-- [Preface](#preface)
-- [Background: France and the Indian Ocean](#background-france-and-the-indian-ocean)
-- [Slavery and Ethnicity in the French Indian Ocean World](#slavery-and-ethnicity-in-the-french-indian-ocean-world)
-  - [France’s Highest Court Rules on the Status of an Indian Slave](#frances-highest-court-rules-on-the-status-of-an-indian-slave)
-  - [Ban on Enslavement of South Asians in French India](#ban-on-enslavement-of-south-asians-in-french-india)
-  - [Two Origin Myths from Madagascar](#two-origin-myths-from-madagascar)
-  - [Observations of a French Missionary on the Population of Bourbon Island](#observations-of-a-french-missionary-on-the-population-of-bourbon-island)
-  - [An Imperial Pronouncement on Race and Status](#an-imperial-pronouncement-on-race-and-status)
-  - [Crisis on Bourbon Island](#crisis-on-bourbon-island)
-- [The French Revolution and the Politics of Race](#the-french-revolution-and-the-politics-of-race)
-  - [Diary of a Bourbon Island Planter in France (1780s and ‘90s)](#diary-of-a-bourbon-island-planter-in-france-1780s-and-90s)
-  - [Petitions of the Colony of Bourbon to the National Assembly](#petitions-of-the-colony-of-bourbon-to-the-national-assembly)
-  - [Speech of Pierre Antoine Monneron to the National Assembly, Paris, May 13, 1791](#speech-of-pierre-antoine-monneron-to-the-national-assembly-paris-may-13-1791)
-- [Opposing Abolition: Conservative Reactions](#opposing-abolition-conservative-reactions)
-  - [Legislative Decision about the 1796 Baco and Burnel Expedition, 24 January 1796](#legislative-decision-about-the-1796-baco-and-burnel-expedition-24-january-1796)
-  - [A Panicked Dispatch From Réunion Island](#a-panicked-dispatch-from-reunion-island)
-  - [The Baco and Burnel Expedition: The Commissioners’ Report 9 Vendémiaire Year V [30 September 1796]](#the-baco-and-burnel-expedition-the-commissioners-report-9-vendemiaire-year-v-30-september-1796)
-  - [American Merchants React](#american-merchants-react)
-  - [The Colonial Assembly of Réunion Island to Paris, 1797](#the-colonial-assembly-of-reunion-island-to-paris-1797)
-  - [A Mauritian Colonist’s Perspective: Frédéric Descroizilles, 1796 & 1802](#a-mauritian-colonists-perspective-frederic-descroizilles-1796-and-1802)
-  - [A Mauritian Colonist’s Memoir: François Le Forestier, 1812](#a-mauritian-colonists-memoir-francois-le-forestier-1812)
-  - [A Bourbon Colonist’s Perspective: Joseph de Villèle, ca. 1820s](#a-bourbon-colonists-perspective-joseph-de-villele-ca-1820s)
-  - [Napoleon’s Proclamation on Saint-Domingue (Colonial Haiti) and Toussaint Louverture’s Reponse](#napoleons-proclamation-on-saint-domingue-colonial-haiti-and-toussaint-louvertures-reponse)
-  - [Napoleon Confirms the Maintenance of Slavery in the Mascarenes, 1802](#napoleon-confirms-the-maintenance-of-slavery-in-the-mascarenes-1802)
-  - [Opinions of a Refugee from Saint-Domingue in Louisiana](#opinions-of-a-refugee-from-saint-domingue-in-louisiana)
-  - [Observations of a Conservative Former Colonial Minister, 1802](#observations-of-a-conservative-former-colonial-minister-1802)
-  - [Napoleon Interviewed in Exile on St. Helena, ca. 1816](#napoleon-interviewed-in-exile-on-st-helena-ca-1816)
-- [Perspectives of People of Color](#perspectives-of-people-of-color)
-  - [An Enslaved Woman Testifies on Bourbon Island, 1793](#an-enslaved-woman-testifies-on-bourbon-island-1793)
-  - [Memoirs of a Sailor from Isle de France (Early 19th Century)](#memoirs-of-a-sailor-from-isle-de-france-early-19th-century)
-  - [Autobiographical Letter, Lislet-Geoffroy](#autobiographical-letter-lislet-geoffroy)
-  - [Historical Writings of a Journalist from Isle de France (Late 19th Century)](#historical-writings-of-a-journalist-from-isle-de-france-late-19th-century)
-
+<section class="in-page-contents" id="contents" aria-labelledby="contents-heading">
+  <h2 id="contents-heading">Contents</h2>
+  <ul>
+    <li><a href="#preface">Preface</a></li>
+    <li><a href="#background-france-and-the-indian-ocean">Background: France and the Indian Ocean</a></li>
+    <li><a href="#slavery-and-ethnicity-in-the-french-indian-ocean-world">Slavery and Ethnicity in the French Indian Ocean World</a>
+      <ul>
+        <li><a href="#frances-highest-court-rules-on-the-status-of-an-indian-slave">France’s Highest Court Rules on the Status of an Indian Slave</a></li>
+        <li><a href="#ban-on-enslavement-of-south-asians-in-french-india">Ban on Enslavement of South Asians in French India</a></li>
+        <li><a href="#two-origin-myths-from-madagascar">Two Origin Myths from Madagascar</a></li>
+        <li><a href="#observations-of-a-french-missionary-on-the-population-of-bourbon-island">Observations of a French Missionary on the Population of Bourbon Island</a></li>
+        <li><a href="#an-imperial-pronouncement-on-race-and-status">An Imperial Pronouncement on Race and Status</a></li>
+        <li><a href="#crisis-on-bourbon-island">Crisis on Bourbon Island</a></li>
+      </ul>
+    </li>
+    <li><a href="#the-french-revolution-and-the-politics-of-race">The French Revolution and the Politics of Race</a>
+      <ul>
+        <li><a href="#diary-of-a-bourbon-island-planter-in-france-1780s-and-90s">Diary of a Bourbon Island Planter in France (1780s and ‘90s)</a></li>
+        <li><a href="#petitions-of-the-colony-of-bourbon-to-the-national-assembly">Petitions of the Colony of Bourbon to the National Assembly</a></li>
+        <li><a href="#speech-of-pierre-antoine-monneron-to-the-national-assembly-paris-may-13-1791">Speech of Pierre Antoine Monneron to the National Assembly, Paris, May 13, 1791</a></li>
+      </ul>
+    </li>
+    <li><a href="#opposing-abolition-conservative-reactions">Opposing Abolition: Conservative Reactions</a>
+      <ul>
+        <li><a href="#legislative-decision-about-the-1796-baco-and-burnel-expedition-24-january-1796">Legislative Decision about the 1796 Baco and Burnel Expedition, 24 January 1796</a></li>
+        <li><a href="#a-panicked-dispatch-from-reunion-island">A Panicked Dispatch From Réunion Island</a></li>
+        <li><a href="#the-baco-and-burnel-expedition-the-commissioners-report-9-vendemiaire-year-v-30-september-1796">The Baco and Burnel Expedition: The Commissioners’ Report 9 Vendémiaire Year V [30 September 1796]</a></li>
+        <li><a href="#american-merchants-react">American Merchants React</a></li>
+        <li><a href="#the-colonial-assembly-of-reunion-island-to-paris-1797">The Colonial Assembly of Réunion Island to Paris, 1797</a></li>
+        <li><a href="#a-mauritian-colonists-perspective-frederic-descroizilles-1796-and-1802">A Mauritian Colonist’s Perspective: Frédéric Descroizilles, 1796 &amp; 1802</a></li>
+        <li><a href="#a-mauritian-colonists-memoir-francois-le-forestier-1812">A Mauritian Colonist’s Memoir: François Le Forestier, 1812</a></li>
+        <li><a href="#a-bourbon-colonists-perspective-joseph-de-villele-ca-1820s">A Bourbon Colonist’s Perspective: Joseph de Villèle, ca. 1820s</a></li>
+        <li><a href="#napoleons-proclamation-on-saint-domingue-colonial-haiti-and-toussaint-louvertures-reponse">Napoleon’s Proclamation on Saint-Domingue (Colonial Haiti) and Toussaint Louverture’s Reponse</a></li>
+        <li><a href="#napoleon-confirms-the-maintenance-of-slavery-in-the-mascarenes-1802">Napoleon Confirms the Maintenance of Slavery in the Mascarenes, 1802</a></li>
+        <li><a href="#opinions-of-a-refugee-from-saint-domingue-in-louisiana">Opinions of a Refugee from Saint-Domingue in Louisiana</a></li>
+        <li><a href="#observations-of-a-conservative-former-colonial-minister-1802">Observations of a Conservative Former Colonial Minister, 1802</a></li>
+        <li><a href="#napoleon-interviewed-in-exile-on-st-helena-ca-1816">Napoleon Interviewed in Exile on St. Helena, ca. 1816</a></li>
+      </ul>
+    </li>
+    <li><a href="#perspectives-of-people-of-color">Perspectives of People of Color</a>
+      <ul>
+        <li><a href="#an-enslaved-woman-testifies-on-bourbon-island-1793">An Enslaved Woman Testifies on Bourbon Island, 1793</a></li>
+        <li><a href="#memoirs-of-a-sailor-from-isle-de-france-early-19th-century">Memoirs of a Sailor from Isle de France (Early 19th Century)</a></li>
+        <li><a href="#autobiographical-letter-lislet-geoffroy">Autobiographical Letter, Lislet-Geoffroy</a></li>
+        <li><a href="#historical-writings-of-a-journalist-from-isle-de-france-late-19th-century">Historical Writings of a Journalist from Isle de France (Late 19th Century)</a></li>
+      </ul>
+    </li>
+  </ul>
+</section>
 <a id="preface"></a>
 ## Preface
 
@@ -2316,43 +2355,34 @@ For instance, consider the history of Saint Domingue, the most prosperous colony
   var toggle = document.getElementById('reader-toc-toggle');
   var closeButton = document.getElementById('reader-toc-close');
   var scrim = document.getElementById('reader-toc-scrim');
-  var contentsAnchor = document.getElementById('contents');
+  var sourceContents = document.querySelector('.in-page-contents');
+  var sourceList = sourceContents ? sourceContents.querySelector(':scope > ul') : null;
 
-  if (!shell || !panel || !nav || !toggle || !contentsAnchor) return;
-
-  /* Reuse the existing Contents list so there is only one TOC to maintain. */
-  var node = contentsAnchor.nextElementSibling;
-  var sourceList = null;
-
-  while (node) {
-    if (node.tagName === 'UL') {
-      sourceList = node;
-      break;
-    }
-    node = node.nextElementSibling;
-  }
-
-  if (!sourceList) {
-    shell.style.display = 'none';
+  if (!shell || !panel || !nav || !toggle || !sourceContents || !sourceList) {
+    if (shell) shell.style.display = 'none';
     return;
   }
 
-  var clonedList = sourceList.cloneNode(true);
-  nav.appendChild(clonedList);
+  /* Clone from an explicit Contents container rather than relying on
+     Jekyll's rendered sibling structure. */
+  nav.replaceChildren(sourceList.cloneNode(true));
+
+  function isWideDesktop() {
+    return window.innerWidth >= 1600;
+  }
 
   function openDrawer() {
+    if (isWideDesktop()) return;
     shell.classList.add('is-open');
     toggle.setAttribute('aria-expanded', 'true');
-    if (window.innerWidth < 1720) {
-      panel.setAttribute('tabindex', '-1');
-      panel.focus();
-    }
+    panel.setAttribute('tabindex', '-1');
+    panel.focus();
   }
 
   function closeDrawer(returnFocus) {
     shell.classList.remove('is-open');
     toggle.setAttribute('aria-expanded', 'false');
-    if (returnFocus) toggle.focus();
+    if (returnFocus && !isWideDesktop()) toggle.focus();
   }
 
   toggle.addEventListener('click', function () {
@@ -2384,16 +2414,31 @@ For instance, consider the history of Saint Domingue, the most prosperous colony
   nav.addEventListener('click', function (event) {
     var link = event.target.closest('a[href^="#"]');
     if (!link) return;
-    if (window.innerWidth < 1720) closeDrawer(false);
+    if (!isWideDesktop()) closeDrawer(false);
   });
 
   window.addEventListener('resize', function () {
-    if (window.innerWidth >= 1720) {
-      closeDrawer(false);
+    if (isWideDesktop()) closeDrawer(false);
+  });
+
+  /* On tablet/desktop, "Back to Contents" opens or focuses the persistent TOC
+     instead of jumping to a hidden in-page Contents section. */
+  document.addEventListener('click', function (event) {
+    var link = event.target.closest('a[href="#contents"]');
+    if (!link || window.innerWidth <= 700) return;
+
+    event.preventDefault();
+
+    if (isWideDesktop()) {
+      panel.scrollTo({ top: 0, behavior: 'smooth' });
+      var firstLink = nav.querySelector('a');
+      if (firstLink) firstLink.focus({ preventScroll: true });
+    } else {
+      openDrawer();
     }
   });
 
-  /* Highlight the source/section currently nearest the top of the reading pane. */
+  /* Highlight the section/source nearest the top of the reading pane. */
   var links = Array.prototype.slice.call(nav.querySelectorAll('a[href^="#"]'));
   var ticking = false;
 
@@ -2435,8 +2480,7 @@ For instance, consider the history of Saint Domingue, the most prosperous colony
       if (parentLink) parentLink.classList.add('is-current-parent');
     }
 
-    /* Keep the highlighted item visible within a long sidebar. */
-    if (window.innerWidth >= 1720) {
+    if (isWideDesktop()) {
       var panelRect = panel.getBoundingClientRect();
       var currentRect = current.getBoundingClientRect();
 
