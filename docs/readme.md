@@ -8,6 +8,14 @@
   --soft-rule: #ddd6d0;
   --link: #7b2929;
   --link-hover: #4f1717;
+  --quote-bg: #faf8f6;
+  --quote-text: #4f4945;
+  --footnote-text: #554f4b;
+  --media-bg: #f6f3f0;
+  --control-bg: #ffffff;
+  --control-hover: #f5f1ee;
+  --control-active-bg: #7b2929;
+  --control-active-text: #ffffff;
 }
 
 html,
@@ -23,6 +31,11 @@ body {
 
 /* White book page with charcoal gutters extending to the browser edges. */
 .markdown-body {
+  --reader-measure: 820px;
+  --reader-font-size: 18px;
+  --reader-line-height: 1.68;
+  --reader-font: Georgia, "Times New Roman", serif;
+
   width: 100%;
   max-width: 1200px !important;
   min-height: 100vh;
@@ -31,10 +44,87 @@ body {
   box-sizing: border-box;
   background-color: var(--page-bg);
   color: var(--text);
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: 18px;
-  line-height: 1.68;
+  font-family: var(--reader-font);
+  font-size: var(--reader-font-size);
+  line-height: var(--reader-line-height);
   box-shadow: 0 0 24px rgba(0, 0, 0, 0.18);
+}
+
+/* Reader-controlled typography and line length. */
+.markdown-body[data-reader-size="small"] {
+  --reader-font-size: 16px;
+}
+
+.markdown-body[data-reader-size="large"] {
+  --reader-font-size: 20px;
+}
+
+.markdown-body[data-reader-size="xlarge"] {
+  --reader-font-size: 22px;
+}
+
+.markdown-body[data-reader-width="narrow"] {
+  --reader-measure: 680px;
+}
+
+.markdown-body[data-reader-width="wide"] {
+  --reader-measure: 960px;
+}
+
+.markdown-body[data-reader-spacing="compact"] {
+  --reader-line-height: 1.5;
+}
+
+.markdown-body[data-reader-spacing="spacious"] {
+  --reader-line-height: 1.9;
+}
+
+.markdown-body[data-reader-font="sans"] {
+  --reader-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+/* Optional reading themes. */
+.markdown-body[data-reader-theme="paper"] {
+  --page-bg: #f4efe4;
+  --text: #332f2b;
+  --muted: #746b62;
+  --soft-rule: #d4c8b8;
+  --quote-bg: #ece4d6;
+  --quote-text: #4c453e;
+  --footnote-text: #5b534c;
+  --media-bg: #eee6d9;
+  --control-bg: #fbf7ef;
+  --control-hover: #eee5d7;
+  color-scheme: light;
+}
+
+.markdown-body[data-reader-theme="dark"] {
+  --page-bg: #20201f;
+  --text: #eee9e2;
+  --muted: #bcb3aa;
+  --rule: #cf7373;
+  --soft-rule: #504b46;
+  --link: #e4a0a0;
+  --link-hover: #f2c1c1;
+  --quote-bg: #2a2826;
+  --quote-text: #ddd6cf;
+  --footnote-text: #cbc2b9;
+  --media-bg: #292725;
+  --control-bg: #2b2927;
+  --control-hover: #373431;
+  --control-active-bg: #a94f4f;
+  --control-active-text: #ffffff;
+  color-scheme: dark;
+}
+
+html[data-reader-theme="paper"],
+html[data-reader-theme="paper"] body {
+  background-color: #37332f;
+}
+
+html[data-reader-theme="dark"],
+html[data-reader-theme="dark"] body {
+  background-color: #151515;
 }
 
 /* Keep prose at a comfortable book-like measure while allowing images to breathe. */
@@ -47,7 +137,7 @@ body {
 .markdown-body > pre,
 .markdown-body > table,
 .markdown-body > .footnotes {
-  max-width: 820px;
+  max-width: var(--reader-measure);
   margin-left: auto;
   margin-right: auto;
 }
@@ -64,7 +154,7 @@ body {
   padding: 0;
   border-bottom: 0 !important;
   color: var(--text);
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: var(--reader-font);
   font-size: 2.75rem;
   font-weight: 600;
   line-height: 1.08;
@@ -112,6 +202,169 @@ body {
   letter-spacing: 0.02em;
 }
 
+/* Kindle-style reading settings: compact, persistent, and keyboard accessible. */
+.reader-settings-wrap {
+  position: sticky;
+  top: 0.75rem;
+  z-index: 50;
+  display: flex;
+  justify-content: flex-end;
+  max-width: 980px;
+  margin: -1.8rem auto 2.5rem;
+  pointer-events: none;
+}
+
+.reader-settings {
+  position: relative;
+  pointer-events: auto;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.35;
+}
+
+.reader-settings > summary {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.55rem 0.75rem;
+  border: 1px solid var(--soft-rule);
+  border-radius: 999px;
+  background: var(--control-bg);
+  color: var(--text);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.10);
+  cursor: pointer;
+  list-style: none;
+  user-select: none;
+}
+
+.reader-settings > summary::-webkit-details-marker {
+  display: none;
+}
+
+.reader-settings > summary::marker {
+  content: "";
+}
+
+.reader-settings > summary:hover {
+  background: var(--control-hover);
+}
+
+.reader-settings > summary:focus-visible,
+.reader-setting-button:focus-visible,
+.reader-settings-reset:focus-visible {
+  outline: 2px solid var(--rule);
+  outline-offset: 2px;
+}
+
+.reader-settings[open] > summary {
+  background: var(--control-hover);
+}
+
+.reader-settings-aa {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.05rem;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+}
+
+.reader-settings-panel {
+  position: absolute;
+  top: calc(100% + 0.55rem);
+  right: 0;
+  width: 330px;
+  max-width: calc(100vw - 2.5rem);
+  padding: 1rem;
+  border: 1px solid var(--soft-rule);
+  border-radius: 0.8rem;
+  background: var(--control-bg);
+  color: var(--text);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.18);
+}
+
+.reader-settings-panel fieldset {
+  margin: 0 0 0.95rem;
+  padding: 0;
+  border: 0;
+}
+
+.reader-settings-panel legend {
+  margin-bottom: 0.4rem;
+  padding: 0;
+  color: var(--muted);
+  font-size: 0.76rem;
+  font-weight: 700;
+  letter-spacing: 0.045em;
+  text-transform: uppercase;
+}
+
+.reader-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+
+.reader-setting-button,
+.reader-settings-reset {
+  appearance: none;
+  -webkit-appearance: none;
+  border: 1px solid var(--soft-rule);
+  border-radius: 0.45rem;
+  background: transparent;
+  color: var(--text);
+  font: inherit;
+  cursor: pointer;
+}
+
+.reader-setting-button {
+  min-width: 2.55rem;
+  padding: 0.42rem 0.58rem;
+}
+
+.reader-setting-button:hover,
+.reader-settings-reset:hover {
+  background: var(--control-hover);
+}
+
+.reader-setting-button[aria-pressed="true"] {
+  border-color: var(--control-active-bg);
+  background: var(--control-active-bg);
+  color: var(--control-active-text);
+}
+
+.reader-settings-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  margin-top: 0.2rem;
+  padding-top: 0.8rem;
+  border-top: 1px solid var(--soft-rule);
+}
+
+.reader-settings-note {
+  margin: 0 !important;
+  color: var(--muted);
+  font-size: 0.74rem;
+  line-height: 1.35;
+}
+
+.reader-settings-reset {
+  flex: 0 0 auto;
+  padding: 0.38rem 0.55rem;
+}
+
+.sr-only {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  clip: rect(0, 0, 0, 0) !important;
+  white-space: nowrap !important;
+  border: 0 !important;
+}
+
 /* Section headings: restrained, book-like, with a short burgundy rule. */
 .markdown-body h2 {
   margin-top: 4.25rem;
@@ -119,7 +372,7 @@ body {
   padding: 0;
   border-bottom: 0 !important;
   color: var(--text);
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: var(--reader-font);
   font-size: 1.8rem;
   font-weight: 600;
   line-height: 1.25;
@@ -140,7 +393,7 @@ body {
   padding-top: 1.15rem;
   border-top: 1px solid var(--soft-rule);
   color: var(--text);
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: var(--reader-font);
   font-size: 1.4rem;
   font-weight: 600;
   line-height: 1.32;
@@ -152,7 +405,7 @@ body {
 }
 
 #contents + h2 + ul {
-  max-width: 860px;
+  max-width: calc(var(--reader-measure) + 40px);
   padding-left: 1.35rem;
   line-height: 1.52;
 }
@@ -169,8 +422,15 @@ body {
 /* Links use a muted historical-book accent instead of GitHub blue. */
 .markdown-body a {
   color: var(--link);
-  text-decoration-color: rgba(123, 41, 41, 0.35);
+  text-decoration-color: color-mix(in srgb, var(--link) 35%, transparent);
   text-underline-offset: 0.12em;
+}
+
+/* Fallback for browsers without color-mix(). */
+@supports not (color: color-mix(in srgb, red 50%, white)) {
+  .markdown-body a {
+    text-decoration-color: rgba(123, 41, 41, 0.35);
+  }
 }
 
 .markdown-body a:hover,
@@ -219,15 +479,15 @@ body {
   height: 600px;
   margin: 0 auto;
   border: 1px solid var(--soft-rule);
-  background: #f6f3f0;
+  background: var(--media-bg);
 }
 
 /* Quotations and notes. */
 .markdown-body blockquote {
   padding: 0.35rem 1.2rem;
   border-left: 3px solid var(--rule);
-  color: #4f4945;
-  background: #faf8f6;
+  color: var(--quote-text);
+  background: var(--quote-bg);
 }
 
 .markdown-body blockquote > :last-child {
@@ -238,7 +498,7 @@ body {
   margin-top: 4.5rem;
   padding-top: 1.4rem;
   border-top: 1px solid var(--soft-rule);
-  color: #554f4b;
+  color: var(--footnote-text);
   font-size: 0.86rem;
   line-height: 1.55;
 }
@@ -249,7 +509,7 @@ body {
 
 /* A little more air around the major sections without giant GitHub rules. */
 .markdown-body hr {
-  max-width: 820px;
+  max-width: var(--reader-measure);
   height: 1px;
   margin: 3rem auto;
   border: 0;
@@ -268,11 +528,24 @@ body {
     background-color: var(--page-bg);
   }
 
+  html[data-reader-theme="paper"],
+  html[data-reader-theme="paper"] body {
+    background-color: #f4efe4;
+  }
+
+  html[data-reader-theme="dark"],
+  html[data-reader-theme="dark"] body {
+    background-color: #20201f;
+  }
+
   .markdown-body {
     max-width: 100% !important;
     padding: 1.8rem 1.25rem 3.5rem !important;
-    font-size: 17px;
     box-shadow: none;
+  }
+
+  .markdown-body:not([data-reader-size]) {
+    --reader-font-size: 17px;
   }
 
   .markdown-body > h1:first-of-type {
@@ -282,6 +555,16 @@ body {
 
   .book-title-block {
     margin-bottom: 3rem;
+  }
+
+  .reader-settings-wrap {
+    top: 0.5rem;
+    margin-top: -1.4rem;
+    margin-bottom: 2.1rem;
+  }
+
+  .reader-settings-panel {
+    width: min(330px, calc(100vw - 2rem));
   }
 
   .markdown-body h2 {
@@ -303,12 +586,26 @@ body {
 @media print {
   html,
   body {
-    background: #ffffff;
+    background: #ffffff !important;
+  }
+
+  .reader-settings-wrap {
+    display: none !important;
   }
 
   .markdown-body {
+    --page-bg: #ffffff;
+    --text: #000000;
+    --muted: #444444;
+    --soft-rule: #cccccc;
+    --quote-bg: #ffffff;
+    --quote-text: #222222;
+    --footnote-text: #222222;
+
     max-width: none !important;
     padding: 0 !important;
+    background: #ffffff !important;
+    color: #000000 !important;
     box-shadow: none;
   }
 
@@ -322,6 +619,64 @@ body {
   <p class="book-subtitle"><strong>Slavery, Resistance, & the Politics of Race in France’s Indian Ocean Colonies During the Age of Revolution</strong></p>
   <p class="book-kicker"><em>A Documentary Reader</em></p>
   <p class="book-author">Nathan Elliot Marvin</p>
+</div>
+
+<div class="reader-settings-wrap">
+  <details class="reader-settings" id="reader-settings">
+    <summary><span class="reader-settings-aa" aria-hidden="true">Aa</span><span>Reading settings</span></summary>
+    <div class="reader-settings-panel" role="group" aria-label="Reading settings">
+      <fieldset>
+        <legend>Text size</legend>
+        <div class="reader-options">
+          <button type="button" class="reader-setting-button" data-reader-setting="size" data-reader-value="small" aria-pressed="false" aria-label="Smaller text">A−</button>
+          <button type="button" class="reader-setting-button" data-reader-setting="size" data-reader-value="default" aria-pressed="true" aria-label="Default text size">A</button>
+          <button type="button" class="reader-setting-button" data-reader-setting="size" data-reader-value="large" aria-pressed="false" aria-label="Larger text">A+</button>
+          <button type="button" class="reader-setting-button" data-reader-setting="size" data-reader-value="xlarge" aria-pressed="false" aria-label="Extra-large text">A++</button>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Text width</legend>
+        <div class="reader-options">
+          <button type="button" class="reader-setting-button" data-reader-setting="width" data-reader-value="narrow" aria-pressed="false">Narrow</button>
+          <button type="button" class="reader-setting-button" data-reader-setting="width" data-reader-value="default" aria-pressed="true">Default</button>
+          <button type="button" class="reader-setting-button" data-reader-setting="width" data-reader-value="wide" aria-pressed="false">Wide</button>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Line spacing</legend>
+        <div class="reader-options">
+          <button type="button" class="reader-setting-button" data-reader-setting="spacing" data-reader-value="compact" aria-pressed="false">Compact</button>
+          <button type="button" class="reader-setting-button" data-reader-setting="spacing" data-reader-value="default" aria-pressed="true">Default</button>
+          <button type="button" class="reader-setting-button" data-reader-setting="spacing" data-reader-value="spacious" aria-pressed="false">Spacious</button>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Typeface</legend>
+        <div class="reader-options">
+          <button type="button" class="reader-setting-button" data-reader-setting="font" data-reader-value="serif" aria-pressed="true">Serif</button>
+          <button type="button" class="reader-setting-button" data-reader-setting="font" data-reader-value="sans" aria-pressed="false">Sans serif</button>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Theme</legend>
+        <div class="reader-options">
+          <button type="button" class="reader-setting-button" data-reader-setting="theme" data-reader-value="light" aria-pressed="true">Light</button>
+          <button type="button" class="reader-setting-button" data-reader-setting="theme" data-reader-value="paper" aria-pressed="false">Paper</button>
+          <button type="button" class="reader-setting-button" data-reader-setting="theme" data-reader-value="dark" aria-pressed="false">Dark</button>
+        </div>
+      </fieldset>
+
+      <div class="reader-settings-footer">
+        <p class="reader-settings-note">Your choices are saved on this device.</p>
+        <button type="button" class="reader-settings-reset" id="reader-settings-reset">Reset</button>
+      </div>
+      <p class="sr-only" id="reader-settings-status" aria-live="polite"></p>
+    </div>
+  </details>
 </div>
 
 <a id="contents"></a>
@@ -1549,3 +1904,133 @@ For instance, consider the history of Saint Domingue, the most prosperous colony
 [^87]: These extracts are translations from a recent edition of Hitié’s book. Evenor Hitié, <em>Histoire de Maurice: (ancienne Île de France): Tome Premier [1897]</em>, Réédition (Pamplemousses, Mauritius: Pamplemousses Éditions, 2014), p. 99.
 
 [^88]: Société de l’histoire de l’île Maurice. <em>Dictionnaire de biographie mauricienne</em>. Port-Louis: Esclapon, 1972.
+
+
+<script>
+(function () {
+  var reader = document.querySelector('.markdown-body');
+  var settingsBox = document.getElementById('reader-settings');
+  var resetButton = document.getElementById('reader-settings-reset');
+  var status = document.getElementById('reader-settings-status');
+
+  if (!reader || !settingsBox) return;
+
+  var storageKey = 'freedomDeferredReaderSettings';
+  var defaults = {
+    size: 'default',
+    width: 'default',
+    spacing: 'default',
+    font: 'serif',
+    theme: 'light'
+  };
+
+  var attributes = {
+    size: 'data-reader-size',
+    width: 'data-reader-width',
+    spacing: 'data-reader-spacing',
+    font: 'data-reader-font',
+    theme: 'data-reader-theme'
+  };
+
+  function loadSettings() {
+    try {
+      var saved = JSON.parse(localStorage.getItem(storageKey));
+      if (!saved || typeof saved !== 'object') return Object.assign({}, defaults);
+      return Object.assign({}, defaults, saved);
+    } catch (error) {
+      return Object.assign({}, defaults);
+    }
+  }
+
+  function saveSettings(settings) {
+    try {
+      localStorage.setItem(storageKey, JSON.stringify(settings));
+    } catch (error) {
+      /* The reader still works if local storage is unavailable. */
+    }
+  }
+
+  function setAttributeOrDefault(setting, value) {
+    var attribute = attributes[setting];
+    var isDefault =
+      (setting === 'size' && value === 'default') ||
+      (setting === 'width' && value === 'default') ||
+      (setting === 'spacing' && value === 'default') ||
+      (setting === 'font' && value === 'serif') ||
+      (setting === 'theme' && value === 'light');
+
+    if (isDefault) {
+      reader.removeAttribute(attribute);
+    } else {
+      reader.setAttribute(attribute, value);
+    }
+  }
+
+  function updateButtons(settings) {
+    var buttons = settingsBox.querySelectorAll('[data-reader-setting]');
+    buttons.forEach(function (button) {
+      var setting = button.getAttribute('data-reader-setting');
+      var value = button.getAttribute('data-reader-value');
+      button.setAttribute('aria-pressed', String(settings[setting] === value));
+    });
+  }
+
+  function applySettings(settings, announce) {
+    Object.keys(defaults).forEach(function (setting) {
+      setAttributeOrDefault(setting, settings[setting]);
+    });
+
+    if (settings.theme === 'light') {
+      document.documentElement.removeAttribute('data-reader-theme');
+    } else {
+      document.documentElement.setAttribute('data-reader-theme', settings.theme);
+    }
+
+    updateButtons(settings);
+
+    if (announce && status) {
+      status.textContent = 'Reading settings updated.';
+    }
+  }
+
+  var current = loadSettings();
+  applySettings(current, false);
+
+  settingsBox.addEventListener('click', function (event) {
+    var button = event.target.closest('[data-reader-setting]');
+    if (!button) return;
+
+    var setting = button.getAttribute('data-reader-setting');
+    var value = button.getAttribute('data-reader-value');
+    current[setting] = value;
+    saveSettings(current);
+    applySettings(current, true);
+  });
+
+  if (resetButton) {
+    resetButton.addEventListener('click', function () {
+      current = Object.assign({}, defaults);
+      try {
+        localStorage.removeItem(storageKey);
+      } catch (error) {
+        /* Ignore storage errors. */
+      }
+      applySettings(current, false);
+      if (status) status.textContent = 'Reading settings reset to defaults.';
+    });
+  }
+
+  document.addEventListener('keydown', function (event) {
+    if (event.key === 'Escape' && settingsBox.open) {
+      settingsBox.open = false;
+      settingsBox.querySelector('summary').focus();
+    }
+  });
+
+  document.addEventListener('click', function (event) {
+    if (settingsBox.open && !settingsBox.contains(event.target)) {
+      settingsBox.open = false;
+    }
+  });
+})();
+</script>
