@@ -1765,8 +1765,6 @@ Its members presented their respects to the envoys of the Directory, on the one 
 
 An immense crowd surrounded the meeting place of the [Colonial] Assembly when the generals and commissioners went in. All transpired in the utmost calm, the opinion pages kept mim, no cries came forth from the crowd, which, as if out of curiosity, accompanied the commissioners as they returned to the Government Palace. The troops, under arms for the parade, returned to their barracks. The commission of the Assembly was appointed and went immediately to meet with the two commissioners[.] A signal had been agreed upon beforehand for [the commission], when leaving the Government Palace, to announce whether, as most believed, the mission of the envoys of the Directory was in fact to execute the decree of 16 Pluviose. When a great interest motivates an entire population, when this interest, especially, is that of the preservation of each of its members, it moves as a single man without having previously conferred, and each individual provides, with admirable intelligence and care, for the salvation of all. When the generals, who had brought the troops back to the barracks, returned to Government Square, they found themselves surrounded by an immense crowd, and, half willing, half by force, they accepted [their] offer to go to a café for some refreshments. Shortly afterwards appeared on the balcony of the Government Palace the signal announcing the intention of the commissioners to execute the fatal decree.
 
-<em>Baco and Burnel wore the official costume of the Directory’s colonial agents (pictured). “Agent du Directoire exécutif dans les colonies : ce fonctionnaire est nommé par le Directoire, il est chargé de faire exécuter toutes les loix emanées de la Republique, et d'organiser tous les tribunaux et ne doit rendre compt qu'au Directoire exécutif [estampe].” Philippe Joseph Maillart (1764-1856), Brussels, 1796-1799. Image Source: Images of the French Revolution, Stanford University.</em>
-
 <figure>
     <iframe src="https://embed.stanford.edu/iframe?url=https://purl.stanford.edu/xh656wd7606" title="Image viewer" width="800" height="600" allowfullscreen frameborder="0"></iframe>
     <figcaption>Baco and Burnel would have been quite conspicuous on the streets of Port Louis, wearing the official costume of the Directory’s colonial agents. Engraving by Philippe Joseph Maillart, Brussels, 1796-1799. Images of the French Revolution, Stanford University.</figcaption>
@@ -1968,13 +1966,13 @@ Oh! At my response, the man was in a frenzy—the grog had truly gone to his hea
 
 To calm him down, I said: "Listen, comrade, sometimes friends are worth more than family. From what I see of your character, I believe we will get along perfectly. We are both Creoles, far from our homeland—what is stopping us from meeting up when we find ourselves in London, loving each other like brothers, and helping one another in times of need? From this moment on, I will think of you as a brother, and you can count on my friendship."
 
-[<em>Tabardin and Pamphile visited each other regularly while their respective ships were moored at Canton</em>]
+<em>Tabardin and Pamphile visited each other regularly while their respective ships were moored at Canton (Guangzhou, China).</em>
 
-<strong>[p. 200] [Near the end of his manuscript, Tabardin reflects on the British conquest of Mauritius in 1810, which ended nearly a century of French colonization on the island...]</strong>
+<em>Near the end of his manuscript, Tabardin reflects on the British conquest of Mauritius in 1810, which ended nearly a century of French colonization on the island.</em>
 
-…I do not care whether I am under English, French, or even Portuguese rule, so long as I enjoy the rights of a free man. I do not believe I possessed them under the rule of Général Decaen [Napoleon's Captain-General of Mauritius]. According to him and his apostles, justice was not owed to people of color; they claimed it would grant them too much license. By this, I do not mean to suggest that the current [British] government grants me the entirety of my rights—far from it. But in some respects, I do find myself more at ease. I am content wherever justice reigns and wherever I find honest people. That is my country, and they are my brothers.
+I do not care whether I am under English, French, or even Portuguese rule, so long as I enjoy the rights of a free man. I do not believe I possessed them under the rule of Général Decaen [Napoleon's Captain-General of Mauritius]. According to him and his apostles, justice was not owed to people of color; they claimed it would grant them too much license. By this, I do not mean to suggest that the current [British] government grants me the entirety of my rights—far from it. But in some respects, I do find myself more at ease. I am content wherever justice reigns and wherever I find honest people. That is my country, and they are my brothers.
 
-Go find me one of those black men from the depths of <em>Négritie</em> [a historical region in Eastern Africa] to rule over me; if he is moral, just, and benevolent, I would be honored to obey his laws.
+Go find me one of those black men from the depths of <em>Négritie</em> [a historical region in West Africa] to rule over me; if he is moral, just, and benevolent, I would be honored to obey his laws.
 
 
 <figure>
@@ -2133,7 +2131,7 @@ For instance, consider the history of Saint Domingue, the most prosperous colony
 
 [^46]: Île de France and its dependencies counted 49,080 slaves in 1797. Data from Robert René Kuczynski, <em>Demographic Survey of the British Colonial Empire</em>, (London: Oxford University Press, 1949), II: 758. Bourbon counted 44,800 in the same year. Louis Maillard, <em>Notes sur l'Île de la Réunion</em> (Paris: E. Dentu, 1862), I: 295.
 
-[^47]: Réimpression de l’ancien Moniteur: Directoire exécutif. H. Plon, 1863. [p. 310-311]
+[^47]: Réimpression de l’ancien Moniteur: Directoire exécutif. H. Plon, 1863, 310-311.
 
 [^48]: Archives départementales de La Réunion, L331.
 
